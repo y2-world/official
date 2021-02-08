@@ -72,7 +72,7 @@
                 visibility:visible;
             }
 
-            .mobile_space {
+            .space {
                 display:none;
             }
             

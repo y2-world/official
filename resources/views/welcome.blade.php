@@ -20,7 +20,7 @@
                                     <br>
                                     <a class="link" href="{{ url('/news') }}">Yuki Official Website 開設！</a>
                                     <p class="text">Yukiのアーティスト活動やエンジニアとしての活動をお伝えするオフィシャルウェブサイトが開設されました。</p>   
-                                    <br class=mobile_space></br>   
+                                    <br>
                             </div>
                             <div class="col-md-4">
                                 <div class="row">
@@ -39,7 +39,7 @@
                                     <a class="link" href="{{ url('/music') }}">13th Single「Daydream」</a>
                                     <br>
                                     <p class="text">夢や人生観を描いたまさにコロナ禍の"今”に響くような歌詞、エモーショナルなミディアムロックチューン。</p>
-                                <br class=mobile_space></br>   
+                                    <br>
                             </div>
                             <div class="col-md-4">
                             <div class="row">
