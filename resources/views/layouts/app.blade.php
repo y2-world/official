@@ -32,7 +32,7 @@
             .menu {
                 text-align: right;
                 font-size: 20px;
-                padding : 0 30px;
+                padding : 0 25px;
             }
 
             .menu a:hover {
@@ -63,7 +63,7 @@
                 font-size: 14px;
             }
             
-            @media screen and (min-width: 640px) {
+            @media screen and (min-width: 1024px) {
             .nav {
                 display:none;}
             }
@@ -73,7 +73,7 @@
             }
             
 
-            @media screen and (max-width: 640px) {
+            @media screen and (max-width: 1024px) {
             .nav {
                 visibility:visible;
             }
