@@ -71,6 +71,10 @@
             .img {
                 visibility:visible;
             }
+
+            .mobile_space {
+                display:none;
+            }
             
 
             @media screen and (max-width: 1024px) {
