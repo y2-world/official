@@ -14,10 +14,10 @@
         </div><!-- /.btn-group -->
         <br>
         <br>
-        <h2>New Release</h2>
             <div class="mt-4">
                     <div class="row">
                         <div class="col-md-4">
+                                <h2>New Release</h2>
                                 <div class="topic">Daydream</div>
                                 <p class="text">13th Single<br>
                                 2020.11.27</p>
