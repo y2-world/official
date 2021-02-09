@@ -205,6 +205,9 @@
         <hr>
         <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
         <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </footer>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>            
     </body>
 </html>
