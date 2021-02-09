@@ -41,7 +41,6 @@
                                 14.夜を通り抜けて<br>
                                 15.願い<br>
                                 </p> 
-                                <br>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -65,8 +64,7 @@
                                 11.TOKYO<br>
                                 12.Wonderful World<br>
                                 13.orange<br>
-                                </p> 
-                                <br>
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -92,7 +90,6 @@
                                 13.Traveling Life<br>
                                 14.アリガト 〜Dear K〜<br>
                                 </p> 
-                                <br>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -116,7 +113,6 @@
                                 11.Rainbow<br>
                                 12.ACACIA 〜My Precious Time〜<br>
                                 </p> 
-                                <br>
                             </div>
                         </div>
                     </div>
