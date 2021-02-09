@@ -53,9 +53,9 @@
                             </div>
                                 </div>
                                     <hr>
-                                    <a class="link" href="{{ url('http://54.249.81.67/') }}" target="_blank"><span>NIPPO</span></a>
+                                    <a class="link" href="http://54.249.81.67/" target="_blank"><span>NIPPO</span></a>
                                     <p class="text">プログラミング学習を毎日記録</p>
-                                    <a class="link" href="{{ url('http://18.179.42.2/') }}" target="_blank"><span>TRAVEL×YOU</span></a>
+                                    <a class="link" href="http://18.179.42.2/" target="_blank"><span>TRAVEL×YOU</span></a>
                                     <p class="text">旅とあなたをつなぐプラットフォーム</p>
                             </div>
                     </div>

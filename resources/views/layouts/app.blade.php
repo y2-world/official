@@ -71,6 +71,14 @@
                 font-size: 13px;
             }
 
+            .works_image {
+                text-align: center;
+            }
+
+            span {
+            display: inline-block;
+            }
+
             @media screen and (max-width: 1200px) {
             .more {
                 display:none;}
@@ -139,7 +147,7 @@
         <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="{{ url('/blog') }}">&emsp;Blog</a>
+        <a class="nav-link" href="#">&emsp;Blog</a>
         </li>
         </div>
         </nav>
@@ -167,7 +175,7 @@
                                         <a class="menu" href="{{ url('/profile') }}"><span>Profile</span></a>
                                         <a class="menu" href="{{ url('/works') }}"><span>Works</span></a>
                                         <a class="menu" href="{{ url('/music') }}"><span>Music</span></a>
-                                        <a class="menu" href="{{ url('/blog') }}"><span>Blog</span></a>
+                                        <a class="menu" href="#"><span>Blog</span></a>
                                     </div>
                                 </div>
                             </div>
