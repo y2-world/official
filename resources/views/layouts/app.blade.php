@@ -62,6 +62,19 @@
             .hour  {
                 font-size: 14px;
             }
+
+            .prof_img {
+                text-align: center;
+            }
+
+            .profile {
+                font-size: 13px;
+            }
+
+            @media screen and (max-width: 1200px) {
+            .more {
+                display:none;}
+            }
             
             @media screen and (min-width: 1024px) {
             .nav {
@@ -86,7 +99,7 @@
             border-color: rgba(0,0,0,0);
             }
 
-            .more, .menu, .title, .sub, .mobile_hr{
+            .menu, .title, .sub, .mobile_hr{
                 display:none;
             }
 
@@ -94,6 +107,7 @@
                 font-size: 8px;
                 color:gray;
             }
+
 
         }
 
@@ -138,7 +152,6 @@
 
     <div class="container">
             <div class="mt-5"></div>
-                <div class="row justify-content-center">
                     <div class="col-md-12">
                         <div class="links">
                             <div class="row">

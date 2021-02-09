@@ -63,6 +63,8 @@
                 <hr>
                 <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
                 <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                
+                
             </div>
         </div>
         @endsection
