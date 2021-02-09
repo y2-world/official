@@ -34,7 +34,7 @@
                                     </div>
                                 </div>
                                     <hr>
-                                    <small class="date">2020.11.28</small>
+                                    <small class="date">2020.11.27</small>
                                     <br>
                                     <a class="link" href="{{ url('/music') }}">13th Single「Daydream」</a>
                                     <br>

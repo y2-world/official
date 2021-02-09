@@ -21,7 +21,7 @@
                             <img src={{ asset('images/single_image13.jpg') }} class="image" width="100%">
                             <div class="topic">Daydream</div>
                             <p class="text">13th Single<br>
-                            2020.11.28</p>
+                            2020.11.27</p>
                         </div>
                         <div class="col-md-2">
                             <img src={{ asset('images/single_image12.jpg') }} class="image" width="100%">
