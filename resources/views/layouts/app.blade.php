@@ -47,6 +47,11 @@
                 font-size: 10px;
             }
 
+            .music_date {
+                font-size: 10px;
+                color:gray;
+            }
+
             .topic {
                 font-size: 18px;
             }
@@ -77,6 +82,19 @@
 
             span {
             display: inline-block;
+            }
+
+            html, body {
+            height: 100%;
+            margin: 0;
+            }
+            .wrapper {
+            min-height: 100%;
+            margin-bottom: -50px;
+            }
+            .footer,
+            .push {
+            height: 50px;
             }
 
             @media screen and (max-width: 1200px) {
@@ -183,5 +201,10 @@
                         <div class="mobile_hr"><hr></div>
         @yield('content')
         </div>
+        <footer class="footer">
+        <hr>
+        <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
+        <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </footer>
     </body>
 </html>

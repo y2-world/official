@@ -7,5 +7,4 @@
         <br>
          <div class="link">Yuki Official Website 開設！</a>
          <p class="text">Yukiのアーティスト活動やエンジニアとしての活動をお伝えするオフィシャルウェブサイトが開設されました。</p>   
-        <hr>
 @endsection

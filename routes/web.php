@@ -28,6 +28,12 @@ Route::get('/works', function () {
 Route::get('/music', function () {
     return view('music');
 });
+Route::get('/music/single', function () {
+    return view('single');
+});
+Route::get('/music/album', function () {
+    return view('album');
+});
 Route::get('/blog', function () {
     return view('blog');
 });
