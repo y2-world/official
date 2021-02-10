@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
 <div class="sp">
-    <br>
     <img src={{ asset('images/mobile_image.jpg') }} width="100%">
 </div>
 
