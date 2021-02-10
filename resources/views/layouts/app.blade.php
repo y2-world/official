@@ -183,8 +183,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     </div>
 
-    <img src={{ asset('images/mobile_image.jpg') }} class="sp" width="100%">
-
+    <div class="sp">
+        <div class="mt-5"></div>
+        <img src={{ asset('images/mobile_image.jpg') }} width="100%">
+    </div>
 
     <div class="container">
             <div class="mt-5"></div>
