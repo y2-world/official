@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <div class="sp">
-        <div class="mt-5"></div>
-        <img src={{ asset('images/mobile_image.jpg') }} width="100%">
+    <br>
+    <div class="mt-5"></div>
+    <img src={{ asset('images/mobile_image.jpg') }} width="100%">
 </div>
 
 <div class="container">
