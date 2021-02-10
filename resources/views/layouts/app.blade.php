@@ -128,7 +128,7 @@
             border-color: rgba(0,0,0,0);
             }
 
-            .menu, .title,.sub, .mobile_hr{
+            .pc_header{
                 display:none;
             }
 
@@ -183,6 +183,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     </div>
     <div class="container">
+        <div class="pc_header">
             <div class="mt-5"></div>
                     <div class="col-md-12">
                         <div class="links">
@@ -207,6 +208,7 @@
                     </div>
                     <div class="mobile_hr"><hr></div>
                 </div>
+        </div>
     </div>
                         
         @yield('content')
