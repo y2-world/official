@@ -30,9 +30,11 @@
                 <img src={{ asset('images/single_image13.jpg') }} class="image" width="100%">
             </div>
             <div class="col-md-4">
+                <hr>
                 <a href="https://music.apple.com/us/artist/yuki-yoshida/1448865361?itsct=music_box&amp;itscg=30200&amp;ct=artists_yuki_yoshida&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-black/en-US?size=250x83&h=259b7638f2aa5cfb4c76c33102fe2ce3" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
                 <br>
                 <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:5x6TjqB9xXXjY4Xn5y2oJm?si=zii-M5L0RDqqcyVP0qeBSQ&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                <hr>
             </div>
         </div>
 </div>
