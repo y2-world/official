@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-                <img src={{ asset('images/top_image.jpg') }} class="image" width="100%">
+                <img src={{ asset('images/top_image.jpg') }} class="pc" width="100%">
                 <div class="col-md-12">
                     <div class="mt-4">
                         <div class="row">
