@@ -128,7 +128,7 @@
             border-color: rgba(0,0,0,0);
             }
 
-            .pc_header{
+            .menu, .title,.sub, .mobile_hr{
                 display:none;
             }
 

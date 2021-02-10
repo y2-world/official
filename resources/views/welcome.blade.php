@@ -2,7 +2,6 @@
 @section('content')
 <div class="sp">
     <br>
-    <div class="mt-5"></div>
     <img src={{ asset('images/mobile_image.jpg') }} width="100%">
 </div>
 
