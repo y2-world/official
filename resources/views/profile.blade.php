@@ -20,4 +20,6 @@
                     <p class="profile">HTML, CSS, Java Script, PHP, Laravel, Bootstrap, AWS </p>
                 </div>
             </div>
+    </div>
+</div>
 @endsection

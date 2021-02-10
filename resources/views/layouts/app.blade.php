@@ -92,10 +92,11 @@
             min-height: 100%;
             margin-bottom: -50px;
             }
-            .footer,
-            .push {
-            height: 50px;
+
+            footer {
+                width:100%
             }
+            
 
             .pc { display: block !important; }
             .sp { display: none !important; }
@@ -212,17 +213,35 @@
     </div>
                         
         @yield('content')
-        </div>
-        <footer class="footer">
-            <div class="container">
-                <hr>
-                <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
-                <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <!-- Place this tag where you want the button to render. -->
-                <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
-                <!-- Place this tag in your head or just before your close body tag. -->
-                <script async defer src="https://buttons.github.io/buttons.js"></script>   
-            </div>         
-        </div>
+        <br>
+        <footer id='footer'>
+            <footer class="text-left bg-dark text-white">
+                    <div class="container">
+                        <br>
+                        <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
+                        <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
+                        <!-- Place this tag in your head or just before your close body tag. -->
+                        <script async defer src="https://buttons.github.io/buttons.js"></script>  
+                        <br>
+                        <br>
+                    </div> 
+            </footer>  
+        </footer>
+
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+
+    <script>
+
+        $(function(){
+        //フッターを最下部に固定
+            var $footer = $('#footer');
+            if(window.innerHeight > $footer.offset().top + $footer.outerHeight() ) {
+                $footer.attr({'style': 'position:fixed; top:' + (window.innerHeight - $footer.outerHeight()) + 'px;' });
+            }
+        })
+
+    </script>     
     </body>
 </html>
