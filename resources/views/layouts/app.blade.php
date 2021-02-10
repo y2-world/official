@@ -182,15 +182,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     </div>
-
-    <div class="sp">
-        <div class="mt-5"></div>
-        <img src={{ asset('images/mobile_image.jpg') }} width="100%">
-    </div>
-
     <div class="container">
             <div class="mt-5"></div>
-                <h2 class="sp">Topics</h2>
                     <div class="col-md-12">
                         <div class="links">
                             <div class="row">
@@ -211,16 +204,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mobile_hr"><hr></div>
+                    </div>
+                    <div class="mobile_hr"><hr></div>
+                </div>
+    </div>
+                        
         @yield('content')
         </div>
         <footer class="footer">
-        <hr>
-        <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
-        <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
-        <!-- Place this tag in your head or just before your close body tag. -->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>            
+            <div class="container">
+                <hr>
+                <div class="hour"> TOTAL INPUT TIME : 346 HOURS </div>
+                <a href="https://twitter.com/y2_engineer2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <!-- Place this tag where you want the button to render. -->
+                <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
+                <!-- Place this tag in your head or just before your close body tag. -->
+                <script async defer src="https://buttons.github.io/buttons.js"></script>   
+            </div>         
+        </div>
     </body>
 </html>
