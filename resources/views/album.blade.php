@@ -14,7 +14,6 @@
 </div>
 
 <br>
-<br>
 
 <div class="container">
     <h2>Album</h2>
