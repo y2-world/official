@@ -23,7 +23,7 @@
                                     <hr>
                                     <small class="date">2021.02.07</small>
                                     <br>
-                                    <a class="link" href="{{ url('/news') }}">Yuki Official Website 開設！</a>
+                                    <a class="link" href="{{ url('/news') }}">Yuki Yoshida Official Website 開設！</a>
                                     <p class="text">Yukiのアーティスト活動やエンジニアとしての活動をお伝えするオフィシャルウェブサイトが開設されました。</p>   
                                     <div class="sp"><br></div>
                             </div>
