@@ -21,10 +21,10 @@
                                         </div>
                                 </div>
                                     <hr>
-                                    <small class="date">2021.02.07</small>
+                                    <small class="date">2021.02.18</small>
                                     <br>
-                                    <a class="link" href="{{ url('/news') }}">Yuki Yoshida Official Website 開設！</a>
-                                    <p class="text">Yukiのアーティスト活動やエンジニアとしての活動をお伝えするオフィシャルウェブサイトが開設されました。</p>   
+                                    <a class="link" href="https://qiita.com/y2_engineer" target="_blank">Yuki Yoshida Official Qiita 開設！</a>
+                                    <p class="text">プログラミング学習のアウトプットのために今後随時更新していきます。</p>
                                     <div class="sp"><br></div>
                             </div>
                             <div class="col-md-4">

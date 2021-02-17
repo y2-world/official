@@ -201,7 +201,7 @@
                                         <a class="menu" href="{{ url('/profile') }}"><span>Profile</span></a>
                                         <a class="menu" href="{{ url('/works') }}"><span>Works</span></a>
                                         <a class="menu" href="{{ url('/music') }}"><span>Music</span></a>
-                                        <a class="menu" href="#"><span>Blog</span></a>
+                                        <a class="menu" href="https://qiita.com/y2_engineer" target="_blank"><span>Qiita</span></a>
                                     </div>
                                 </div>
                             </div>
