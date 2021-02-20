@@ -64,10 +64,7 @@
                                     <p class="text">旅とあなたをつなぐプラットフォーム</p>
                             </div>
                     </div>
-                </div>
-   
-                
-                
+                </div>               
             </div>
         </div>
 @endsection
