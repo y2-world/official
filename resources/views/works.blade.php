@@ -15,7 +15,13 @@
                         <h6 class>プログラミング学習を毎日記録</h6>
                         <p class="text">誰もが投稿しやすく、<br>
                         勉強した内容や時間を見やすく、<br>
-                        仲間とともに勉強を続けられる環境を作っていきます。</p> 
+                        仲間とともに勉強を続けられる環境を作っていきます。 
+                        <br>
+                        <br>
+                        使用言語 : PHP / Laravel<br>
+                        データベース : MySQL<br>
+                        サーバー : AWS
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -33,6 +39,12 @@
                         <sapn>疑問に思ったことを質問したり...</span> <br>
                         <span>楽しみ方は何通りもあります。</span>
                         <span>さぁ、一緒に旅に出かけましょう！</span>
+                        <br>
+                        <br>
+                        使用言語 : PHP / Laravel / Java Script<br>
+                        データベース : MySQL<br>
+                        サーバー : AWS
+                        </p>
                         </p>
                     </div>  
                 </div>
