@@ -4,7 +4,7 @@
     <h2>News</h2>
     <small class="date">2021.02.25</small>
     <div class="link">Yuki Yoshida Official Podcast "y2_radio" 開設！</div>
-    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！毎週月曜更新予定。</p>  
+    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！毎週土曜更新予定。</p>  
     <a href="https://anchor.fm/13190" target="_blank" button type="button" class="btn-sm btn-outline-dark">y2_radio</button></a>
     <hr> 
     <small class="date">2021.02.18</small>

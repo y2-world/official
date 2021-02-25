@@ -24,7 +24,7 @@
                                     <small class="date">2021.02.25</small>
                                     <br>
                                     <a class="link" href="https://anchor.fm/13190" target="_blank">Yuki Yoshida Official Podcast "y2_radio" 開設！</a>
-                                    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！毎週月曜更新予定。</p>
+                                    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！毎週土曜更新予定。</p>
                                     <div class="sp"><br></div>
                             </div>
                             <div class="col-md-4">
