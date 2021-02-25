@@ -4,13 +4,13 @@
     <h2>News</h2>
     <small class="date">2021.02.25</small>
     <div class="link">Yuki Yoshida Official Podcast "y2_radio" 開設！</div>
-    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！毎週土曜更新予定。</p>  
-    <a href="https://anchor.fm/13190" target="_blank" button type="button" class="btn-sm btn-outline-dark">y2_radio</button></a>
+    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！毎週土曜更新予定。<br></p>
+    <small class="news_link"><a href="https://anchor.fm/13190" target="_blank">https://anchor.fm/13190</a></small>
     <hr> 
     <small class="date">2021.02.18</small>
     <div class="link">Yuki Yoshida Official Qiita 開設！</div>
     <p class="text">Yuki Yoshida Official Qiitaが開設されました。プログラミング学習のアウトプットのために今後随時更新していきます。</p>  
-    <a href="https://qiita.com/y2_engineer" target="_blank" button type="button" class="btn-sm btn-outline-dark">Yuki Yoshida Official Qiita</button></a>
+    <small class="news_link"><a href="https://qiita.com/y2_engineer" target="_blank">https://qiita.com/y2_engineer</a></small>
     <hr> 
     <small class="date">2021.02.07</small>
     <div class="link">Yuki Yoshida Official Website 開設！</div>

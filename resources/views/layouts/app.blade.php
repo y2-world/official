@@ -96,6 +96,10 @@
             footer {
                 width:100%
             }
+
+            .news_link {
+                color:royalblue;
+            }
             
 
             .pc { display: block !important; }
