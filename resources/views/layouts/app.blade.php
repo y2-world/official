@@ -31,8 +31,8 @@
 
             .menu {
                 text-align: right;
-                font-size: 20px;
-                padding : 0 25px;
+                font-size: 17px;
+                padding : 0 20px;
             }
 
             .menu a:hover {
@@ -175,6 +175,9 @@
         <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
         </li>
         <li class="nav-item">
+        <a class="nav-link" href="https://anchor.fm/13190" target="_blank">&emsp;Radio</a>
+        </li>
+        <li class="nav-item">
         <a class="nav-link" href="https://qiita.com/y2_engineer" target="_blank">&emsp;Qiita</a>
         </li>
         </div>
@@ -201,6 +204,7 @@
                                         <a class="menu" href="{{ url('/profile') }}"><span>Profile</span></a>
                                         <a class="menu" href="{{ url('/works') }}"><span>Works</span></a>
                                         <a class="menu" href="{{ url('/music') }}"><span>Music</span></a>
+                                        <a class="menu" href="https://anchor.fm/13190" target="_blank"><span>Radio</span></a>
                                         <a class="menu" href="https://qiita.com/y2_engineer" target="_blank"><span>Qiita</span></a>
                                     </div>
                                 </div>
