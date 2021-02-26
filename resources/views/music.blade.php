@@ -28,6 +28,7 @@
                 </div>
             <div class="col-md-4">
                 <img src={{ asset('images/single_image13.jpg') }} class="image" width="100%">
+                <br>
             </div>
             <div class="col-md-4">
                 <h3>Streaming</h3>
