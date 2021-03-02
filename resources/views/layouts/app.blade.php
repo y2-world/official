@@ -32,7 +32,7 @@
             .menu {
                 text-align: right;
                 font-size: 20px;
-                padding : 0 20px;
+                padding : 0 15px;
             }
 
             .menu a:hover {
