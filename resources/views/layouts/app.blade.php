@@ -179,10 +179,7 @@
         <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="{{ url('/music') }}">&emsp;Radio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="https://anchor.fm/13190" target="_blank">&emsp;Radio</a>
+        <a class="nav-link" href="{{ url('/radio') }}">&emsp;Radio</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="https://qiita.com/y2_engineer" target="_blank">&emsp;Qiita</a>
