@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <RadioForm class="mx-auto w-50"></RadioForm>
+        <RadioForm class="mx-auto w-75"></RadioForm>
     </div>
 </template>
 

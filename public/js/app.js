@@ -37666,7 +37666,7 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "container" },
-    [_c("RadioForm", { staticClass: "mx-auto w-50" })],
+    [_c("RadioForm", { staticClass: "mx-auto w-75" })],
     1
   )
 }
@@ -37698,7 +37698,7 @@ var render = function() {
     _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
-    _c("div", [
+    _c("div", { staticClass: "center-block" }, [
       _c(
         "ul",
         _vm._l(_vm.list, function(item) {
@@ -37723,10 +37723,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "form-group" }, [
           _c("h5", [_vm._v("質問・感想")]),
           _vm._v(" "),
-          _c("textarea", {
-            staticClass: "form-control",
-            attrs: { rows: "5", name: "diary" }
-          })
+          _c("textarea", { staticClass: "form-control", attrs: { rows: "4" } })
         ]),
         _vm._v(" "),
         _c("input", {
