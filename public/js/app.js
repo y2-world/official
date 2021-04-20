@@ -1899,13 +1899,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -37701,8 +37694,6 @@ var render = function() {
       _vm._v(" "),
       _c("hr"),
       _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
       _c(
         "ul",
         { staticClass: "list-group" },
@@ -37734,28 +37725,6 @@ var staticRenderFns = [
         staticClass: "btn btn-secondary btn-sm",
         attrs: { type: "button", value: "送信" }
       })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "list-group" }, [
-      _c("li", { staticClass: "list-group-item" }, [_vm._v("Cras justo odio")]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _vm._v("Dapibus ac facilisis in")
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [_vm._v("Morbi leo risus")]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _vm._v("Porta ac consectetur ac")
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _vm._v("Vestibulum at eros")
-      ])
     ])
   }
 ]
