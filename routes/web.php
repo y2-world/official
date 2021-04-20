@@ -25,6 +25,12 @@ Route::get('/profile', function () {
 Route::get('/works', function () {
     return view('works');
 });
+Route::get('/radio', function () {
+    return view('radio');
+});
+Route::get('/radio/form', function () {
+    return view('form');
+});
 Route::get('/music', function () {
     return view('music');
 });

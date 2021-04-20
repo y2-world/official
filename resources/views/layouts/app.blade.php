@@ -179,6 +179,9 @@
         <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
         </li>
         <li class="nav-item">
+        <a class="nav-link" href="{{ url('/music') }}">&emsp;Radio</a>
+        </li>
+        <li class="nav-item">
         <a class="nav-link" href="https://anchor.fm/13190" target="_blank">&emsp;Radio</a>
         </li>
         <li class="nav-item">
@@ -208,7 +211,7 @@
                                         <a class="menu" href="{{ url('/profile') }}"><span>Profile</span></a>
                                         <a class="menu" href="{{ url('/works') }}"><span>Works</span></a>
                                         <a class="menu" href="{{ url('/music') }}"><span>Music</span></a>
-                                        <a class="menu" href="https://anchor.fm/13190" target="_blank"><span>Radio</span></a>
+                                        <a class="menu" href="{{ url('/radio') }}"><span>Radio</span></a>
                                         <a class="menu" href="https://qiita.com/y2_engineer" target="_blank"><span>Qiita</span></a>
                                     </div>
                                 </div>
@@ -226,7 +229,7 @@
             <footer class="text-left bg-dark text-white">
                     <div class="container">
                         <br>
-                        <div class="hour"> TOTAL INPUT TIME : 364 HOURS </div>
+                        <div class="hour"> TOTAL INPUT TIME : 463 HOURS </div>
                         <a href="https://twitter.com/y2_engineer?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         <!-- Place this tag where you want the button to render. -->
                         <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
