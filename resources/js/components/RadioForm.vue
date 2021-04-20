@@ -16,7 +16,7 @@
                 <input type="button" class="btn btn-secondary btn-sm" value="送信">
             </div>
             <hr>
-            <ul>
+            <ul class="list-group">
                 <li v-for="item in list" :key="item.id" class="list-group-item">
                     {{ item.value }}
                 </li>
