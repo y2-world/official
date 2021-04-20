@@ -1899,8 +1899,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -37696,9 +37694,11 @@ var render = function() {
   return _c("div", [
     _c("div", { staticClass: "mt-5" }),
     _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "center-block" }, [
+    _c("div", { staticClass: "form" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
       _c(
         "ul",
         _vm._l(_vm.list, function(item) {
@@ -37716,23 +37716,19 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form" }, [
-      _c("div", [
-        _c("h2", [_vm._v("y2_radio Form")]),
+    return _c("div", [
+      _c("h2", [_vm._v("y2_radio Form")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group" }, [
+        _c("h5", [_vm._v("質問・感想")]),
         _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("h5", [_vm._v("質問・感想")]),
-          _vm._v(" "),
-          _c("textarea", { staticClass: "form-control", attrs: { rows: "4" } })
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "btn btn-secondary btn-sm",
-          attrs: { type: "button", value: "送信" }
-        })
+        _c("textarea", { staticClass: "form-control", attrs: { rows: "4" } })
       ]),
       _vm._v(" "),
-      _c("hr")
+      _c("input", {
+        staticClass: "btn btn-secondary btn-sm",
+        attrs: { type: "button", value: "送信" }
+      })
     ])
   }
 ]

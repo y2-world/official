@@ -16,8 +16,6 @@
                 <input type="button" class="btn btn-secondary btn-sm" value="送信">
             </div>
             <hr>
-        </div>
-        <div class="center-block">
             <ul>
                 <li v-for="item in list" :key="item.id" class="list-group-item">
                     {{ item.value }}
