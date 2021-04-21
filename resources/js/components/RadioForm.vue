@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="mt-5"></div>
+        <div class="mt-4"></div>
         <div class="form">
             <div>
                  <h2>y2_radio Form</h2>
