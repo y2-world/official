@@ -11,7 +11,7 @@
             </div>
             <div class="col-md-6">
                 <hr>
-                最新話<br>
+                <small class="date">最新話</small><br>
                 #011 (2021.04.18 更新)
                 <h5>ブラックSESで嫌だったことBEST 3</h5>
                 <hr>
