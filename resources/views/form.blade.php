@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Radio</title>
+        <title>y2_radio Form</title>
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
