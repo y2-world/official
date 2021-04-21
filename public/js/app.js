@@ -1899,34 +1899,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      list: [{
-        id: 1,
-        name: 'name1',
-        type: 'type1',
-        value: 'comment1'
-      }, {
-        id: 2,
-        name: 'name2',
-        type: 'type2',
-        value: 'comment2'
-      }, {
-        id: 3,
-        name: 'name3',
-        type: 'type3',
-        value: 'comment3'
-      }]
+      list: [],
+      newName: "",
+      newComment: "",
+      nextId: 1
     };
+  },
+  methods: {
+    addComment: function addComment() {
+      if (!this.newComment.trim()) {
+        alert("コメントを入力してください。");
+        return;
+      }
+
+      this.list.push({
+        id: this.nextId++,
+        name: this.newName,
+        comment: this.newComment
+      });
+      this.newName = "", this.newComment = "";
+    }
   }
 });
 
@@ -37704,7 +37699,65 @@ var render = function() {
     _c("div", { staticClass: "mt-4" }),
     _vm._v(" "),
     _c("div", { staticClass: "form" }, [
-      _vm._m(0),
+      _c("div", [
+        _c("h2", [_vm._v("y2_radio Form")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-group" }, [
+          _c("h5", [_vm._v("質問・感想")]),
+          _vm._v("\n                ラジオネーム\n                "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.newName,
+                expression: "newName"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: { type: "text" },
+            domProps: { value: _vm.newName },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.newName = $event.target.value
+              }
+            }
+          }),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v("\n                質問・感想\n                "),
+          _c("textarea", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.newComment,
+                expression: "newComment"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: { rows: "4" },
+            domProps: { value: _vm.newComment },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.newComment = $event.target.value
+              }
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "btn btn-secondary btn-sm",
+          attrs: { type: "button", value: "送信" },
+          on: { click: _vm.addComment }
+        })
+      ]),
       _vm._v(" "),
       _c("hr"),
       _vm._v(" "),
@@ -37715,10 +37768,8 @@ var render = function() {
           return _c("li", { key: item.id, staticClass: "list-group-item" }, [
             _vm._v("\n                " + _vm._s(item.name) + " "),
             _c("br"),
-            _vm._v("\n                " + _vm._s(item.type) + " "),
-            _c("br"),
             _vm._v(
-              "\n                " + _vm._s(item.value) + " \n            "
+              "\n                " + _vm._s(item.comment) + " \n            "
             )
           ])
         }),
@@ -37727,41 +37778,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h2", [_vm._v("y2_radio Form")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("h5", [_vm._v("質問・感想")]),
-        _vm._v("\n                ラジオネーム\n                "),
-        _c("input", { staticClass: "form-control", attrs: { type: "text" } }),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("label", [
-          _c("input", { attrs: { type: "radio", name: "type" } }),
-          _vm._v("\n                質問\n                ")
-        ]),
-        _vm._v(" "),
-        _c("label", [
-          _c("input", { attrs: { type: "radio", name: "type" } }),
-          _vm._v("\n                感想\n                ")
-        ]),
-        _vm._v(" "),
-        _c("textarea", { staticClass: "form-control", attrs: { rows: "4" } })
-      ]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "btn btn-secondary btn-sm",
-        attrs: { type: "button", value: "送信" }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

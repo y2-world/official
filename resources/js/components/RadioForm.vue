@@ -7,26 +7,18 @@
                  <div class="form-group">
                     <h5>質問・感想</h5>
                     ラジオネーム
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" v-model="newName">
                     <br>
-                    <label>
-                    <input type="radio" name="type">
-                    質問
-                    </label>
-                    <label>
-                    <input type="radio" name="type">
-                    感想
-                    </label>
-                    <textarea class="form-control" rows="4"></textarea>
+                    質問・感想
+                    <textarea class="form-control" rows="4" v-model="newComment"></textarea>
                 </div>  
-                <input type="button" class="btn btn-secondary btn-sm" value="送信">
+                <input type="button" class="btn btn-secondary btn-sm" value="送信" @click="addComment">
             </div>
             <hr>
             <ul class="list-group">
                 <li v-for="item in list" :key="item.id" class="list-group-item">
                     {{ item.name }} <br>
-                    {{ item.type }} <br>
-                    {{ item.value }} 
+                    {{ item.comment }} 
                 </li>
             </ul>
         </div>
@@ -38,13 +30,29 @@ export default {
     data() {
         return{
             list: [
-                {id:1, name:'name1', type:'type1', value: 'comment1'},
-                {id:2, name:'name2', type:'type2', value: 'comment2'},
-                {id:3, name:'name3', type:'type3', value: 'comment3'},
-            ]
+                
+            ],
+            newName: "",
+            newComment: "",
+            nextId: 1,
         };
+    },
+    methods: {
+        addComment() {
+            if (!this.newComment.trim()) {
+                alert("コメントを入力してください。");
+                return;
+            }
+            this.list.push({
+                id: this.nextId++,
+                name: this.newName,
+                comment: this.newComment
+            });
+            this.newName = "",
+            this.newComment = "";
+        }
     }
-}
+};
 </script>
 
 <style>
