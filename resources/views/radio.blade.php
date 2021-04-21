@@ -19,7 +19,7 @@
                 <small class="news_link"><a href="https://anchor.fm/13190" target="_blank">https://anchor.fm/13190</a></small>
                 <hr>
                 y2_radioでは感想・質問を募集しております！<br>
-                ラジオ内で感想をご紹介、質問にお答えするかもしれません！<br>
+                いただいた感想・質問をご紹介、お答えするかもしれません！<br>
                 <small class="news_link"><a href="{{ url('/radio/form') }}" target="_blank">感想・質問フォーム</a></small>
                 <hr>
             </div>

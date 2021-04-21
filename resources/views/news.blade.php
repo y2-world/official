@@ -2,6 +2,11 @@
 @section('content')
 <div class="container">
     <h2>News</h2>
+    <small class="date">2021.04.21</small>
+    <div class="link">Radioページ開設！</div>
+    <p class="text">y2_radioが聞けるRadioページを開設しました！感想・質問フォームも現在開設中です！<br></p>
+    <small class="news_link"><a href="{{ url('/radio') }}">Radioページへ</a></small>
+    <hr> 
     <small class="date">2021.02.25</small>
     <div class="link">Yuki Yoshida Official Podcast "y2_radio" 開設！</div>
     <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！不定期更新予定。<br></p>

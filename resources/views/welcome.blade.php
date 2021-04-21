@@ -21,10 +21,10 @@
                                         </div>
                                 </div>
                                     <hr>
-                                    <small class="date">2021.02.25</small>
+                                    <small class="date">2021.04.21</small>
                                     <br>
-                                    <a class="link" href="https://anchor.fm/13190" target="_blank">Yuki Yoshida Official Podcast "y2_radio" 開設！</a>
-                                    <p class="text">音楽や英語、プログラミングなど様々なテーマについて語ります！不定期更新予定。</p>
+                                    <a class="link" href="https://anchor.fm/13190" target="_blank">Radioページ開設！</a><br>
+                                    <small class="news_link"><a href="{{ url('/radio') }}">Radioページへ</a></small>
                                     <div class="sp"><br></div>
                             </div>
                             <div class="col-md-4">
