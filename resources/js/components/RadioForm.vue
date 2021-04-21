@@ -1,11 +1,3 @@
-<style>
-.form {
-    font-family: serif;
-}
-h5 {
-    color:gray;
-}
-</style>
 <template>
     <div>
         <div class="mt-5"></div>
@@ -56,5 +48,10 @@ export default {
 </script>
 
 <style>
-
+.form {
+    font-family: serif;
+}
+h5 {
+    color:gray;
+}
 </style>
