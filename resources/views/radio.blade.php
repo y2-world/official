@@ -20,7 +20,7 @@
                 <hr>
                 y2_radioでは感想・質問を募集しております！<br>
                 ラジオ内で感想をご紹介、質問にお答えするかもしれません！<br>
-                <small class="news_link"><a href="{{ url('/radio/form') }}" target="_blank">y2_radio 感想・質問フォーム</a></small>
+                <small class="news_link"><a href="{{ url('/radio/form') }}" target="_blank">感想・質問フォーム</a></small>
                 <hr>
             </div>
         </div>
