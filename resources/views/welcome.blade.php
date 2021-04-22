@@ -1,72 +1,128 @@
 @extends('layouts.app')
 @section('content')
-<div class="sp">
-    <img src={{ asset('images/mobile_image.jpg') }} width="100%">
-</div>
+<img src={{ asset('images/mobile_image.jpg') }} width="100%">
 
-<div class="container">
-                <img src={{ asset('images/top_image.jpg') }} class="pc" width="100%">
-                <div class="col-md-12">
-                    <div class="mt-5">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="row">
-                                        <div class="col-md-9">
-                                            <div class="topic">Topic</div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="more">
-                                                <a href="{{ url('/news') }}" button type="button" class="btn-sm btn-outline-dark">MORE</button></a>
-                                            </div>
-                                        </div>
-                                </div>
-                                    <hr>
-                                    <small class="date">2021.04.21</small>
-                                    <br>
-                                    <a class="link" href="https://anchor.fm/13190" target="_blank">Radioページ開設！</a><br>
-                                    <small class="news_link"><a href="{{ url('/radio') }}">Radioページへ</a></small>
-                                    <div class="sp"><br></div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-9">
-                                        <div class="topic">New Release</div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="more">
-                                            <a href="{{ url('/music') }}" button type="button" class="btn-sm btn-outline-dark">MORE</button></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <hr>
-                                    <small class="date">2020.11.27</small>
-                                    <br>
-                                    <a class="link" href="{{ url('/music') }}">13th Single「Daydream」</a>
-                                    <br>
-                                    <p class="text">夢や人生観を描いたまさにコロナ禍の"今”に響くような歌詞、エモーショナルなミディアムロックチューン。</p>
-                                    <div class="sp"><br></div>
-                            </div>
-                            <div class="col-md-4">
+<div class="topics">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                    <div class="row">
+                        <div>
+                            <h3 class="text-center">TOPICS</div>
+                        </div>
+                        <div>
+                            <hr>
                             <div class="row">
-                                    <div class="col-md-9">
-                                        <div class="topic">Portfolio</div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="more">
-                                            <a href="{{ url('/works') }}" button type="button" class="btn-sm btn-outline-dark">MORE</button></a>
-                                        </div>
-                            </div>
+                                <div class="col-md-3">
+                                    <h6 class="date">2021.04.21</small>
                                 </div>
-                                    <hr>
-                                    <a class="link" href="http://54.249.81.67/" target="_blank"><span>NIPPO</span></a>
-                                    <p class="text">プログラミング学習を毎日記録</p>
-                                    <a class="link" href="http://18.179.42.2/" target="_blank"><span>TRAVEL×YOU</span></a>
-                                    <p class="text">旅とあなたをつなぐプラットフォーム</p>
+                                <div class="col-md-8">
+                                    <h5>Radioページ開設！</h5><br>
+                                </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h6 class="date">2021.02.25</small>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5>Yuki Yoshida Official Podcast "y2_radio" 開設！</h5><br>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h6 class="date">2021.02.18</small>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5>Yuki Yoshida Official Qiita 開設！</h5><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h6 class="date">2021.02.07</small>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5>Yuki Yoshida Official Website 開設！</h5>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="more">
+                                <a href="{{ url('/news') }}" button type="button" class="btn btn-outline-dark">MORE</button></a>
+                            </div>
+                        </div>
                     </div>
-                </div>               
+                </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="release">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                    <div class="row">
+                        <div>
+                            <h3 class="text-center">NEW RELEASE</div>
+                        </div>
+                        <div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h6 class="date">2020.11.27</small>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>13th Single「Daydream」</h5>
+                                    <p>01.Daydream</p>
+                                    <img src={{ asset('images/single_image13.jpg') }} class="image" width="50%">
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="more">
+                                <a href="{{ url('/music') }}" button type="button" class="btn btn-outline-dark">MORE</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">PORTFOLIO</div>
+                </div>
+                <div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>NIPPO</span></h4>
+                            <a href="http://54.249.81.67/" target="_blank"> <img src={{ asset('images/works_image1.png') }} class="image" width="100%"></a>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>TRAVEL×YOU</h4>
+                            <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.jpg') }} class="image" width="100%"></a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="more">
+                        <a href="{{ url('/works') }}" button type="button" class="btn btn-outline-dark">MORE</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
    
 

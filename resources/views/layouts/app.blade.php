@@ -17,12 +17,47 @@
         </style>
 
         <style>
+            .topics {
+                height: 700px;
+                background-color: white;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+
+            .release {
+                height: 700px;
+                background-image: url('images/top_image.jpg');
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                color: black;
+            }
+
+            .portfolio {
+                height: 750px;
+                background-color: white;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+
+            .more {
+                text-align: center;
+            }
+
+            .header_space {
+                height: 70px;
+            }
+
+
             body {
                 font-family: 'Nanum Myeongjo', serif;
             }
 
             .sub {
                 color: gray;
+                font-size: 14px;
             }
 
             .title a:hover{
@@ -101,20 +136,8 @@
                 color:royalblue;
             }
             
-
-            .pc { display: block !important; }
-            .sp { display: none !important; }
-            
-
-            @media screen and (max-width: 1200px) {
-            .more {
-                display:none;}
-            }
-            
             @media screen and (min-width: 1024px) {
-            .nav {
-                display:none;}
-            }
+            
 
             .img {
                 visibility:visible;
@@ -140,86 +163,52 @@
             .mobile_title {
                 font-size: 8px;
                 color:gray;}    
-
-            }
-
-            /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-            @media only screen and (max-width: 750px) {
-                .pc { display: none !important; }
-                .sp { display: block !important; }
-            }
                         
             }
+        }
 
         
         </style>
     </head>
     <body>
-    <div class="nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="{{ url('/') }}">&nbsp;Yuki Official<div class="mobile_title">&emsp;Yuki Yoshida Official Website</div></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-        <li class="nav-item active">
-        <a class="nav-link" href="{{ url('/') }}">&emsp;Home</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="{{ url('/news') }}">&emsp;News</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="{{ url('/profile') }}">&emsp;Profile</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="{{ url('/works') }}">&emsp;Works</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="{{ url('/radio') }}">&emsp;Radio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="https://qiita.com/y2_engineer" target="_blank">&emsp;Qiita</a>
-        </li>
-        </div>
-        </nav>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-    </div>
     <div class="container">
-        <div class="pc_header">
-            <div class="mt-5"></div>
-                    <div class="col-md-12">
-                        <div class="links">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <h2 class="title"><a class="title" href="{{ url('/') }}">Yuki Official</a></h2>
-                                    <h6 class="sub">Yuki Yoshida Official Website</h6>
-                                </div>
-                                <div class="col-md-9">
-                                <div class="mt-4">
-                                    <div class="menu">
-                                        <a class="menu" href="{{ url('/') }}"><span>Home</span></a>
-                                        <a class="menu" href="{{ url('/news') }}"><span>News</span></a>
-                                        <a class="menu" href="{{ url('/profile') }}"><span>Profile</span></a>
-                                        <a class="menu" href="{{ url('/works') }}"><span>Works</span></a>
-                                        <a class="menu" href="{{ url('/music') }}"><span>Music</span></a>
-                                        <a class="menu" href="{{ url('/radio') }}"><span>Radio</span></a>
-                                        <a class="menu" href="https://qiita.com/y2_engineer" target="_blank"><span>Qiita</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mobile_hr"><hr></div>
-                </div>
-        </div>
-    </div>
-                        
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="{{ url('/') }}">&nbsp;Yuki Official</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="{{ url('/') }}">&emsp;Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url('/news') }}">&emsp;News</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url('/profile') }}">&emsp;Profile</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url('/works') }}">&emsp;Works</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url('/radio') }}">&emsp;Radio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://qiita.com/y2_engineer" target="_blank">&emsp;Qiita</a>
+            </li>
+            </div>
+            </nav>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        </div>    
+    </div>   
+    <div class="header_space"></div> 
         @yield('content')
         <br>
         <footer id='footer'>
@@ -237,7 +226,6 @@
                     </div> 
             </footer>  
         </footer>
-
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 
     <script>
