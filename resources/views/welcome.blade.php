@@ -5,7 +5,7 @@
 <div class="topics">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9">
+            <div class="col-md-8">
                     <div class="row">
                         <div>
                             <h3 class="text-center">TOPICS</div>
@@ -61,7 +61,7 @@
 <div class="release">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9">
+            <div class="col-md-8">
                     <div class="row">
                         <div>
                             <h3 class="text-center">NEW RELEASE</div>
@@ -93,35 +93,37 @@
 
 <div class="portfolio">
     <div class="container">
-        <div class="row">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="text-center">PORTFOLIO</div>
-                </div>
-                <div>
-                    <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
                     <div class="row">
-                        <div class="col-md-6">
-                            <h4>NIPPO</span></h4>
-                            <a href="http://54.249.81.67/" target="_blank"> <img src={{ asset('images/works_image1.png') }} class="image" width="100%"></a>
+                        <div>
+                            <h3 class="text-center">PORTFOLIO</div>
+                        </div>
+                        <div>
+                            <hr>
+                            <h5 class="text-center">NIPPO</span></h4>
+                            <div class="text-center">
+                                <a href="http://54.249.81.67/" target="_blank"> <img src={{ asset('images/works_image1.png') }} class="image" width="40%"></a>
+                            </div>
                             <br>
                             <br>
+                                <h5 class="text-center">TRAVEL×YOU</h4>
+                            <div class="text-center">
+                                <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.jpg') }} class="image" width="40%"></a>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="more">
+                                <a href="{{ url('/works') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <h4>TRAVEL×YOU</h4>
-                            <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.jpg') }} class="image" width="100%"></a>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="more">
-                        <a href="{{ url('/works') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 @endsection
    
