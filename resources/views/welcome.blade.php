@@ -5,7 +5,7 @@
 <div class="topics">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-9">
                     <div class="row">
                         <div>
                             <h3 class="text-center">TOPICS</div>
@@ -61,7 +61,7 @@
 <div class="release">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-9">
                     <div class="row">
                         <div>
                             <h3 class="text-center">NEW RELEASE</div>
@@ -94,7 +94,7 @@
 <div class="portfolio">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-9">
                     <div class="row">
                         <div>
                             <h3 class="text-center">PORTFOLIO</div>
