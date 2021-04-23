@@ -172,6 +172,24 @@
                     height: 750px;
                 }
             }
+
+            @media screen and (max-width:1024px) {
+                .topics {
+                    font-size: 15px;
+                }
+                .date {
+                    font-size:11px;
+                }
+                .mobile_img {
+                    width:100%;
+                }
+                .release {
+                    height: 600px;
+                }
+                .portfolio {
+                    height: 1200px;
+                }
+            }
         }
 
         
