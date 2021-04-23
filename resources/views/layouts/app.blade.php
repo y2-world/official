@@ -140,6 +140,21 @@
                 color:royalblue;
             }
 
+            .movie-wrap {
+                position: relative;
+                padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+                height: 0;
+                overflow: hidden;
+            }
+            
+            .movie-wrap iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
             @media screen and (max-width:480px) {
                 .topics {
                     font-size: 15px;

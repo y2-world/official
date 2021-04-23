@@ -24,7 +24,9 @@
                 <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:21oiucbvpex7hvueehkm4bkpy&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
                 <hr>
                 <h5>Watch on</h5>
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLPky7Hthrm_dRbmcTqh6hKOavDpCyKBvt" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="movie-wrap">
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLPky7Hthrm_dRbmcTqh6hKOavDpCyKBvt" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
 </div>
