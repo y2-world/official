@@ -18,7 +18,7 @@
 
         <style>
             .topics {
-                height: 700px;
+                height: 450px;
                 background-color: white;
                 display:flex;
                 align-items:center;
