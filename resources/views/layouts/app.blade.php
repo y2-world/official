@@ -23,6 +23,7 @@
                 display:flex;
                 align-items:center;
                 justify-content:center;
+                font-size:20px;
             }
 
             .release {
@@ -96,6 +97,7 @@
 
             .date {
                 color:gray;
+                font-size:15px;
             }
 
             .hour  {
@@ -116,7 +118,7 @@
 
             span {
             display: inline-block;
-            font-size: 2px;
+            font-size: 8px;
             color:gray;
             }
 
@@ -124,6 +126,7 @@
             height: 100%;
             margin: 0;
             }
+
             .wrapper {
             min-height: 100%;
             margin-bottom: -50px;
@@ -135,6 +138,15 @@
 
             .news_link {
                 color:royalblue;
+            }
+
+            @media screen and (max-width:480px) {
+                .topics {
+                    font-size: 15px;
+                }
+                .date {
+                    font-size:11px;
+                }
             }
         }
 

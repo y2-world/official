@@ -32,13 +32,13 @@
                         <a class="link" href="http://18.179.42.2/" target="_blank"><h5>TRAVEL×YOU</h5></a>
                         <hr>
                         <h6 class>旅とあなたをつなぐプラットフォーム</h6>
-                        <p class="text"><spam>今までのあなたの旅の歴史を記録し、</span>
-                        <span>さらにこれからのあなたの旅をより楽しいものにするツールです。</span><br>
-                        <span>旅行記を作ったり、</span>
-                        <span>旅行先でのトラブルをシェアしたり、</sapn>
-                        <sapn>疑問に思ったことを質問したり...</span> <br>
-                        <span>楽しみ方は何通りもあります。</span>
-                        <span>さぁ、一緒に旅に出かけましょう！</span>
+                        <p class="text"><spam>今までのあなたの旅の歴史を記録し、
+                        さらにこれからのあなたの旅をより楽しいものにするツールです。</span><br>
+                        旅行記を作ったり、</span>
+                        旅行先でのトラブルをシェアしたり、</sapn>
+                        疑問に思ったことを質問したり...</span> <br>
+                        楽しみ方は何通りもあります。</span>
+                        さぁ、一緒に旅に出かけましょう！
                         <br>
                         <br>
                         使用言語 : PHP / Laravel / Java Script<br>
