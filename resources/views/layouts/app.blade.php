@@ -36,7 +36,7 @@
             }
 
             .portfolio {
-                height: 1500px;
+                height: 1350px;
                 background-color: white;
                 display:flex;
                 align-items:center;
@@ -164,6 +164,12 @@
                 }
                 .mobile_img {
                     width:100%;
+                }
+                .release {
+                    height: 500px;
+                }
+                .portfolio {
+                    height: 700px;
                 }
             }
         }
