@@ -103,13 +103,13 @@
                             <hr>
                             <h5 class="text-center">NIPPO</span></h4>
                             <div class="text-center">
-                                <a href="http://54.249.81.67/" target="_blank"> <img src={{ asset('images/works_image1.png') }} class="image" width="40%"></a>
+                                <a href="http://54.249.81.67/" target="_blank"> <img src={{ asset('images/works_image1.png') }} class="image" width="50%"></a>
                             </div>
                             <br>
                             <br>
                                 <h5 class="text-center">TRAVEL×YOU</h4>
                             <div class="text-center">
-                                <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.jpg') }} class="image" width="40%"></a>
+                                <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.jpg') }} class="image" width="50%"></a>
                             </div>
                             <br>
                             <br>
