@@ -48,7 +48,7 @@
                             <br>
                             <br>
                             <div class="more">
-                                <a href="{{ url('/news') }}" button type="button" class="btn btn-outline-dark">MORE</button></a>
+                                <a href="{{ url('/news') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <br>
                             <br>
                             <div class="more">
-                                <a href="{{ url('/music') }}" button type="button" class="btn btn-outline-dark">MORE</button></a>
+                                <a href="{{ url('/music') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                     <br>
                     <br>
                     <div class="more">
-                        <a href="{{ url('/works') }}" button type="button" class="btn btn-outline-dark">MORE</button></a>
+                        <a href="{{ url('/works') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                     </div>
                 </div>
             </div>

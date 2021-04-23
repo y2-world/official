@@ -27,7 +27,7 @@
 
             .release {
                 height: 700px;
-                background-image: url('images/top_image.jpg');
+                background-color: #AFEEEE;
                 display:flex;
                 align-items:center;
                 justify-content:center;
@@ -47,9 +47,8 @@
             }
 
             .header_space {
-                height: 70px;
+                height: 55px;
             }
-
 
             body {
                 font-family: 'Nanum Myeongjo', serif;
@@ -117,6 +116,8 @@
 
             span {
             display: inline-block;
+            font-size: 2px;
+            color:gray;
             }
 
             html, body {
@@ -135,36 +136,6 @@
             .news_link {
                 color:royalblue;
             }
-            
-            @media screen and (min-width: 1024px) {
-            
-
-            .img {
-                visibility:visible;
-            }
-
-            .space {
-                display:none;
-            }
-            
-            @media screen and (max-width: 1024px) {
-            .nav {
-                visibility:visible;
-            }
-
-            .navbar-light .navbar-toggler {
-            border-color: rgba(0,0,0,0);
-            }
-
-            .menu, .title,.sub, .mobile_hr{
-                display:none;
-            }
-
-            .mobile_title {
-                font-size: 8px;
-                color:gray;}    
-                        
-            }
         }
 
         
@@ -174,9 +145,9 @@
     <div class="container">
         <div class="nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="{{ url('/') }}">&nbsp;Yuki Official</a>
+                <a class="navbar-brand" href="{{ url('/') }}">&emsp;Yuki Official&nbsp;<span>Yuki Yoshida Official Website</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <div class="navbar-toggler-icon"></div>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -199,7 +170,7 @@
             <a class="nav-link" href="{{ url('/radio') }}">&emsp;Radio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="https://qiita.com/y2_engineer" target="_blank">&emsp;Qiita</a>
+            <a class="nav-link" href="https://qiita.com/y2_engineer" target="_blank">&emsp;Qiita&emsp;</a>
             </li>
             </div>
             </nav>
