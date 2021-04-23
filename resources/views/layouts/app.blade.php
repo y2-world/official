@@ -27,7 +27,7 @@
             }
 
             .release {
-                height: 800px;
+                height: 700px;
                 background-color: #efffef;
                 display:flex;
                 align-items:center;

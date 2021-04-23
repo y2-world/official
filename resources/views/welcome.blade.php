@@ -75,13 +75,9 @@
                                 <div class="col-md-8">
                                     <h5>13th Single「Daydream」</h5>
                                     <p>01.Daydream</p>
+                                    <h6>夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、<br>エモーショナルなミディアムロックチューン。</h6>
+                                    <br>
                                     <img src={{ asset('images/single_image13.jpg') }} class="image" width="50%">
-                                    <br>
-                                    <hr>
-                                    <h5>Listen on</h5>
-                                    <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_yuki_yoshida&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-black/en-us?size=250x83&h=f2a92c99a2015112ccd39cfb7300b8ce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
-                                    <br>
-                                    <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:21oiucbvpex7hvueehkm4bkpy&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
                                 </div>
                             </div>
                             <br>
