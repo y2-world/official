@@ -79,10 +79,12 @@
                                     <br>
                                     <br>
                                     <h5>Listen on</h5>
-                                    <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_appicon&amp;itscg=30200&amp;ct=artists_yuki_yoshida&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 83px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/app-icon-music/black/ja-jp?size=83x83&h=0a838719f3ceafcc1789bf314878cabd" alt="App Icon Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 50px; height: 50px;"></a>
-                                    <a href="https://open.spotify.com/artist/5x6TjqB9xXXjY4Xn5y2oJm?si=9VNxfjcYQAKBiN3Q9q_lgg"><img src={{ asset('images/Spotify_Icon_RGB_Black.eps') }} class="image" width="10%"></a>
+                                    <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_yuki_yoshida&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-black/en-us?size=250x83&h=f2a92c99a2015112ccd39cfb7300b8ce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+                                    <br>
+                                    <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:21oiucbvpex7hvueehkm4bkpy&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
                                 </div>
                             </div>
+                            <br>
                             <div class="more">
                                 <a href="{{ url('/music') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                             </div>
