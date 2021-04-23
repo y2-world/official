@@ -36,7 +36,7 @@
             }
 
             .portfolio {
-                height: 750px;
+                height: 1500px;
                 background-color: white;
                 display:flex;
                 align-items:center;
@@ -161,6 +161,9 @@
                 }
                 .date {
                     font-size:11px;
+                }
+                .mobile_img {
+                    width:100%;
                 }
             }
         }
