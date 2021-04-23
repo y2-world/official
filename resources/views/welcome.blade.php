@@ -75,8 +75,7 @@
                                 <div class="col-md-8">
                                     <h5>13th Single「Daydream」</h5>
                                     <p>01.Daydream</p>
-                                    <h6>夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、<br>エモーショナルなミディアムロックチューン。</h6>
-                                    <br>
+                                    <p class="text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、エモーショナルなミディアムロックチューン。</p>
                                     <img src={{ asset('images/single_image13.jpg') }} class="image" width="50%">
                                 </div>
                             </div>
