@@ -166,10 +166,10 @@
                     width:100%;
                 }
                 .release {
-                    height: 500px;
+                    height: 550px;
                 }
                 .portfolio {
-                    height: 700px;
+                    height: 750px;
                 }
             }
         }
