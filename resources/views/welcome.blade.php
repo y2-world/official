@@ -80,7 +80,7 @@
                                     <br>
                                     <h5>Listen on</h5>
                                     <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_appicon&amp;itscg=30200&amp;ct=artists_yuki_yoshida&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 83px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/app-icon-music/black/ja-jp?size=83x83&h=0a838719f3ceafcc1789bf314878cabd" alt="App Icon Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 50px; height: 50px;"></a>
-                                    <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6sFIWsNpZYqfjUpaCgueju&size=basic&theme=light" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                                    <a href="https://open.spotify.com/artist/5x6TjqB9xXXjY4Xn5y2oJm?si=9VNxfjcYQAKBiN3Q9q_lgg"><img src={{ asset('images/Spotify_Icon_RGB_Black.eps') }} class="image" width="10%"></a>
                                 </div>
                             </div>
                             <div class="more">
