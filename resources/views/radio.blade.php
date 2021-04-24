@@ -14,8 +14,8 @@
                 <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/y2-radio/id1555086566"></iframe>
                 <hr>
                 <small class="date">最新話</small><br>
-                #011 (2021.04.18 更新)
-                <h5>ブラックSESで嫌だったことBEST 3</h5>
+                #012 (2021.04.24 更新)
+                <h5>ここがおかしい！日本の就活</h5>
                 <hr>
                 他のプラットフォームからはコチラ<br>
                 <small class="news_link"><a href="https://anchor.fm/13190" target="_blank">https://anchor.fm/13190</a></small>
