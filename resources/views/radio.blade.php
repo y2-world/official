@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <div class="mt-4"></div>
-<div class="container">  
+<div class="element js-fadein">
+    <div class="container">  
         <div class="row justify-content-center">
             <div class="col-md-9">
                 <h2>y2_radio</h2> 
@@ -25,5 +26,6 @@
                 <hr>
             </div>
         </div>
+    </div>
 </div>
 @endsection

@@ -155,6 +155,18 @@
                 height: 100%;
             }
 
+            .js-fadein {
+                opacity: 0; 
+                visibility: hidden;
+                transform: translateY(40px);
+                transition: all 1s;
+            }
+            .js-fadein.is-show {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0px);
+            }
+
             @media screen and (max-width:480px) {
                 .topics {
                     font-size: 15px;
@@ -246,6 +258,40 @@
             }
         })
 
-    </script>     
+    </script>   
+    <script>
+    function showElementAnimation() {
+                        
+        var element = document.getElementsByClassName('js-fadein');
+        if(!element) return; // 要素がなかったら処理をキャンセル
+                            
+        var showTiming = window.innerHeight > 768 ? 200 : 300; // 要素が出てくるタイミングはここで調整
+        var scrollY = window.pageYOffset; //スクロール量を取得
+        var windowH = window.innerHeight; //ブラウザウィンドウのビューポート(viewport)の高さを取得
+                            
+        for(var i=0;i<element.length;i++) { 
+            var elemClientRect = element[i].getBoundingClientRect(); 
+            var elemY = scrollY + elemClientRect.top; 
+            if(scrollY + windowH - showTiming > elemY) {
+            element[i].classList.add('is-show');
+            } else if(scrollY + windowH < elemY) {
+            // 上にスクロールして再度非表示にする場合はこちらを記述
+            element[i].classList.remove('is-show');
+            }
+        }
+        }
+        showElementAnimation();
+        window.addEventListener('scroll', showElementAnimation);
+    </script>
+
+    <noscript>
+    <style>
+        .js-fadein {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+        }
+    </style>
+    </noscript>  
     </body>
 </html>
