@@ -3,7 +3,7 @@
 <div class="mt-4"></div>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-9">
             <h2>News</h2>
             <small class="date">2021.04.21</small>
             <div class="link">Radioページ開設！</div>

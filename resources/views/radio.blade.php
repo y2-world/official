@@ -3,7 +3,7 @@
 <div class="mt-4"></div>
 <div class="container">  
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <h2>y2_radio</h2> 
                 <div class="link">
                     週1回不定期で更新！<br>
