@@ -31,8 +31,8 @@ export default {
         return{
             list: [
             ],
-            newName: "",
-            newComment: "",
+            newName: "ラジオネーム",
+            newComment: "コメント",
             nextId: 1,
         };
     },

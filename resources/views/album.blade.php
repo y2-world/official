@@ -2,6 +2,7 @@
 @section('content')
 <div class="mt-4"></div>
 <div class="container">
+    <h2>Music</h2>
         <div class="btn-group">
             <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Discography
