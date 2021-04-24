@@ -36,7 +36,7 @@
             }
 
             .portfolio {
-                height: 1350px;
+                height: 1400px;
                 background-color: white;
                 display:flex;
                 align-items:center;
