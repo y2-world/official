@@ -36,7 +36,7 @@
             }
 
             .portfolio {
-                height: 1200px;
+                height: 1350px;
                 background-color: white;
                 display:flex;
                 align-items:center;
@@ -172,6 +172,7 @@
                     height: 750px;
                 }
             }
+
         }
 
         
