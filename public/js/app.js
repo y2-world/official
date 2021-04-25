@@ -1899,11 +1899,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
       list: [],
       newName: "",
+      newType: "",
       newComment: "",
       nextId: 1
     };
@@ -1918,6 +1923,7 @@ __webpack_require__.r(__webpack_exports__);
       this.list.push({
         id: this.nextId++,
         name: this.newName,
+        type: this.newType,
         comment: this.newComment
       });
       this.newName = "", this.newComment = "";
@@ -37700,10 +37706,10 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "form" }, [
       _c("div", [
-        _c("h2", [_vm._v("y2_radio Form")]),
+        _c("h2", [_vm._v("y2_radio")]),
         _vm._v(" "),
         _c("div", { staticClass: "form-group" }, [
-          _c("h5", [_vm._v("質問・感想")]),
+          _c("h5", [_vm._v("質問・感想フォーム")]),
           _vm._v("\n                ラジオネーム\n                "),
           _c("input", {
             directives: [
@@ -37728,7 +37734,47 @@ var render = function() {
           }),
           _vm._v(" "),
           _c("br"),
-          _vm._v("\n                質問・感想\n                "),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.newType,
+                expression: "newType"
+              }
+            ],
+            attrs: { type: "radio", value: "【質問】", name: "type" },
+            domProps: { checked: _vm._q(_vm.newType, "【質問】") },
+            on: {
+              change: function($event) {
+                _vm.newType = "【質問】"
+              }
+            }
+          }),
+          _vm._v(" "),
+          _c("label", { attrs: { for: "質問" } }, [_vm._v("質問")]),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.newType,
+                expression: "newType"
+              }
+            ],
+            attrs: { type: "radio", value: "【感想】", name: "type" },
+            domProps: { checked: _vm._q(_vm.newType, "【感想】") },
+            on: {
+              change: function($event) {
+                _vm.newType = "【感想】"
+              }
+            }
+          }),
+          _vm._v(" "),
+          _c("label", { attrs: { for: "感想" } }, [_vm._v("感想")]),
+          _vm._v(" "),
           _c("textarea", {
             directives: [
               {
@@ -37767,6 +37813,8 @@ var render = function() {
         _vm._l(_vm.list, function(item) {
           return _c("li", { key: item.id, staticClass: "list-group-item" }, [
             _vm._v("\n                " + _vm._s(item.name) + " "),
+            _c("br"),
+            _vm._v("\n                " + _vm._s(item.type) + " "),
             _c("br"),
             _vm._v(
               "\n                " + _vm._s(item.comment) + " \n            "
