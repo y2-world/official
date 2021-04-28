@@ -13,7 +13,7 @@
                                     <h5 class="form_subtitle">質問・感想フォーム</h5>
                                         <p class="text">
                                         y2_radioでは質問・感想を募集しております！<br>
-                                        いただいた質問・感想をお答え、ご紹介するかもしれません！<br>
+                                        いただいた質問・感想をご紹介するかもしれません！<br>
                                         </p>
                                         @if ($errors->any()) 
                                         <div class="alert alert-danger">
