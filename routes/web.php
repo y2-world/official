@@ -29,7 +29,7 @@ Route::get('/radio', function () {
     return view('radio');
 });
 Route::get('/radio/form', function () {
-    return view('form');
+    return view('comments/create');
 });
 Route::get('/music', function () {
     return view('music');
@@ -43,4 +43,6 @@ Route::get('/music/album', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::resource('comments', 'CommentController');
 

@@ -167,6 +167,10 @@
                 transform: translateY(0px);
             }
 
+            .form_subtitle {
+                color: gray;
+            }
+
             @media screen and (max-width:480px) {
                 .topics {
                     font-size: 15px;
