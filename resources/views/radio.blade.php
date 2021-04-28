@@ -10,7 +10,7 @@
                         週1回不定期で更新！<br>
                         音楽、英語、旅行、プログラミングなどなど何でも語っちゃいます！！<br>
                     </p>
-                    <a href="{{ url('/radio/form') }}"><input type="button" class="btn btn-outline-dark btn-sm" value="感想・質問フォーム"></a>
+                    <a href="{{ url('/radio/form') }}"><input type="button" class="btn btn-outline-dark btn-sm" value="質問・感想フォーム"></a>
                     <br>
                     <br>
                     <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/y2-radio/id1555086566"></iframe>

@@ -12,8 +12,8 @@
                                 <div class="form-group">
                                     <h5 class="form_subtitle">質問・感想フォーム</h5>
                                         <p class="text">
-                                        y2_radioでは感想・質問を募集しております！<br>
-                                        いただいた感想・質問をご紹介、お答えするかもしれません！<br>
+                                        y2_radioでは質問・感想を募集しております！<br>
+                                        いただいた質問・感想をお答え、ご紹介するかもしれません！<br>
                                         </p>
                                         @if ($errors->any()) 
                                         <div class="alert alert-danger">
