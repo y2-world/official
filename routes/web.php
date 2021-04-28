@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CommentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +44,10 @@ Route::get('/music/album', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/confirm', function () {
+    return view('confirm');
+});
 
 Route::resource('comments', 'CommentController');
+
 

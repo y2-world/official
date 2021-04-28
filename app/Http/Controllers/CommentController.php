@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\CommentRequest;
-use App\Comment;
+use App\Comments;
+use App\Models\Comment;
 
 class CommentController extends Controller
 {
@@ -14,8 +15,8 @@ class CommentController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
+    {   $comments = Comment::latest()->get();
+        return view('comments.index', compact('comments'));
     }
 
     /**
@@ -34,9 +35,13 @@ class CommentController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        dd($request);
+    public function store(CommentRequest $request)
+    {   $comment = new Comment;  //commentのインスタンスを作成
+        $comment -> name = $request -> name;
+        $comment -> type = $request -> type;
+        $comment -> comment = $request -> comment;
+        $comment -> save();
+        return redirect()->intended('./confirm');
     }
 
     /**

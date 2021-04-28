@@ -8,12 +8,22 @@
                     <h2>y2_radio</h2>
                         <div class="element js-fadein">
                             <form action="{{ route('comments.store') }}" method="POST" enctype="multipart/form-data">
+                            {{csrf_field()}}
                                 <div class="form-group">
                                     <h5 class="form_subtitle">質問・感想フォーム</h5>
                                         <p class="text">
                                         y2_radioでは感想・質問を募集しております！<br>
                                         いただいた感想・質問をご紹介、お答えするかもしれません！<br>
                                         </p>
+                                        @if ($errors->any()) 
+                                        <div class="alert alert-danger">
+                                            <ul>
+                                                @foreach ($errors->all() as $error)
+                                                    <li>{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                        @endif
                                         ラジオネーム
                                     <input type="text" class="form-control" name="name">
                                     <br>
