@@ -17,6 +17,14 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-3">
+                                        <div class="date">2021.04.29</div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        y2_radio 質問・感想フォーム開設！<br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
                                         <div class="date">2021.04.21</div>
                                     </div>
                                     <div class="col-md-8">
@@ -38,14 +46,6 @@
                                     </div>
                                     <div class="col-md-9">
                                         Yuki Yoshida Official Qiita 開設！<br>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="date">2021.02.07</div>
-                                    </div>
-                                    <div class="col-md-9">
-                                        Yuki Yoshida Official Website 開設！
                                     </div>
                                 </div>
                                 <br>

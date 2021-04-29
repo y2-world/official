@@ -7,6 +7,11 @@
                 <h2>News</h2>
                 <div class="element js-fadein">
                     <hr>
+                    <small class="date">2021.04.29</small>
+                    <div class="link">y2_radio 質問・感想フォーム開設！</div>
+                    <p class="text">質問・感想フォームが完成しました！ぜひメッセージをお願いします！<br></p>
+                    <small class="news_link"><a href="{{ url('/radio/form') }}">質問・感想フォーム</a></small>
+                    <hr>
                     <small class="date">2021.04.21</small>
                     <div class="link">Radioページ開設！</div>
                     <p class="text">y2_radioが聞けるRadioページを開設しました！質問・感想フォームも現在開設中です！<br></p>
