@@ -11,8 +11,7 @@
                     <li class="list-group-item">
                         {{$comment->created_at}}<br>
                         ラジオネーム : {{ $comment->name }}<br>
-                        {{ $comment->type }}<br>
-                        コメント : {{ $comment->comment }}
+                        {{ $comment->type }}{{ $comment->comment }}
                     </li>
                     @endforeach
                     <br>
