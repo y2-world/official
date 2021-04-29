@@ -3,7 +3,7 @@
 <div class="mt-4"></div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <h2>News</h2>
                 <div class="element js-fadein">
                     <small class="date">2021.04.21</small>
