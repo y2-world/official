@@ -12,7 +12,7 @@
                         {{$comment->created_at}}<br>
                         ラジオネーム : {{ $comment->name }}<br>
                         {{ $comment->type }}<br>
-                        コメント{{ $comment->comment }}
+                        コメント : {{ $comment->comment }}
                     </li>
                     @endforeach
                     <br>
