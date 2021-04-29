@@ -6,6 +6,7 @@
             <div class="col-md-8">
                 <h2>News</h2>
                 <div class="element js-fadein">
+                    <hr>
                     <small class="date">2021.04.21</small>
                     <div class="link">Radioページ開設！</div>
                     <p class="text">y2_radioが聞けるRadioページを開設しました！質問・感想フォームも現在開設中です！<br></p>
