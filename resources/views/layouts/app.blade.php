@@ -142,7 +142,7 @@
 
             .movie-wrap {
                 position: relative;
-                padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+                padding-bottom: 56.25%; 
                 height: 0;
                 overflow: hidden;
             }

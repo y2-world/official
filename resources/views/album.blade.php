@@ -1,20 +1,19 @@
 @extends('layouts.app')
 @section('content')
 <div class="mt-4"></div>
-    <div class="container">
-        <h2>Music</h2>
-            <div class="btn-group">
-                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Discography
-                </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="{{ url('/music/single') }}">Single</a>
-                    <a class="dropdown-item" href="{{ url('/music/album') }}">Album</a>
-                </div><!-- /.dropdown-menu -->
-            </div><!-- /.btn-group -->
-    </div>
-
-    <br>
+<div class="container">
+    <h2>Music</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Discography
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="{{ url('/music/single') }}">Single</a>
+                <a class="dropdown-item" href="{{ url('/music/album') }}">Album</a>
+            </div><!-- /.dropdown-menu -->
+        </div><!-- /.btn-group -->
+</div>
+<br>
 <div class="element js-fadein">
     <div class="container">
         <h2>Album</h2>

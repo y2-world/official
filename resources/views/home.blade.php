@@ -16,7 +16,8 @@
                             <div>
                                 <hr>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2">
                                         <div class="date">2021.04.29</div>
                                     </div>
                                     <div class="col-md-8">
@@ -24,7 +25,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2">
                                         <div class="date">2021.04.21</div>
                                     </div>
                                     <div class="col-md-8">
@@ -32,19 +34,21 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2">
                                         <div class="date">2021.02.25</div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8">
                                         Yuki Yoshida Official Podcast "y2_radio" 開設！<br>
                                     </div>
                                     
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2">
                                         <div class="date">2021.02.18</div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8">
                                         Yuki Yoshida Official Qiita 開設！<br>
                                     </div>
                                 </div>
@@ -74,7 +78,8 @@
                             <div>
                                 <hr>
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2">
                                         <h6 class="date">2020.11.27</small>
                                     </div>
                                     <div class="col-md-8">
