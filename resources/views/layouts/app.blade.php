@@ -176,6 +176,11 @@
                 color:gray;
             }
 
+            .footer-input-date {
+                color: gray;
+                font-size: 10px;
+            }
+
             @media screen and (max-width:480px) {
                 .topics {
                     font-size: 15px;
@@ -250,7 +255,7 @@
                             <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy"><i class="fab fa-spotify fa-lg"> </i></a>&nbsp;
                             <a href="https://www.youtube.com/user/yuki92496"><i class="fab fa-youtube fa-lg"></i></a>
                             <br>
-                            <div class="hour"> TOTAL INPUT TIME : 463 HOURS </div>
+                            <div class="hour"> TOTAL INPUT TIME : 485 HOURS <div class="footer-input-date">(2021.05.06 UPDATED) </div></div>
                             <br>
                         </div> 
                     </div>
