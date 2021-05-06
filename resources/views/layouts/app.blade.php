@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">    
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/e47a10189c.js" crossorigin="anonymous"></script>
 
         <!-- Styles -->
         <style>
@@ -171,6 +172,10 @@
                 color: gray;
             }
 
+            i:hover {
+                color:gray;
+            }
+
             @media screen and (max-width:480px) {
                 .topics {
                     font-size: 15px;
@@ -234,17 +239,21 @@
         <br>
         <footer id='footer'>
             <footer class="text-left bg-dark text-white">
-                    <div class="container">
-                        <br>
-                        <div class="hour"> TOTAL INPUT TIME : 463 HOURS </div>
-                        <a href="https://twitter.com/y2_engineer?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @y2_engineer</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <!-- Place this tag where you want the button to render. -->
-                        <a class="github-button" href="https://github.com/y2world" aria-label="Follow @y2world on GitHub">Follow @y2world</a>
-                        <!-- Place this tag in your head or just before your close body tag. -->
-                        <script async defer src="https://buttons.github.io/buttons.js"></script>  
-                        <br>
-                        <br>
-                    </div> 
+                    <div class="footer-main">
+                        <div class="container">
+                            <br>
+                            <a href="https://www.facebook.com/yuki92496?locale=ja_JP"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/y2_engineer"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a href="https://www.instagram.com/y2_world/"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="https://github.com/y2-world"><i class="fab fa-github fa-lg"></i></a>
+                            <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1"><i class="fab fa-apple fa-lg"></i></a>
+                            <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy"><i class="fab fa-spotify fa-lg"></i></a>
+                            <a href="https://www.youtube.com/user/yuki92496"><i class="fab fa-youtube fa-lg"></i></a>
+                            <br>
+                            <div class="hour"> TOTAL INPUT TIME : 463 HOURS </div>
+                            <br>
+                        </div> 
+                    </div>
             </footer>  
         </footer>
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
