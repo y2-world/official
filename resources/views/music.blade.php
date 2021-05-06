@@ -20,9 +20,10 @@
                     </div><!-- /.btn-group -->
                     <hr>
                     <h5>Listen on</h5>
-                    <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_yuki_yoshida&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-black/en-us?size=250x83&h=f2a92c99a2015112ccd39cfb7300b8ce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
-                    <br>
-                    <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:21oiucbvpex7hvueehkm4bkpy&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                    <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1"><i class="fab fa-apple fa-3x"></i></a>
+                    Apple Music&emsp;
+                    <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy"><i class="fab fa-spotify fa-3x"></i></a>
+                    Spotify
                     <hr>
                     <h5>Watch on</h5>
                     <div class="movie-wrap">
