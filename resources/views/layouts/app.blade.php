@@ -247,13 +247,13 @@
                     <div class="footer-main">
                         <div class="container">
                             <br>
-                            <a href="https://www.facebook.com/yuki92496?locale=ja_JP"><i class="fab fa-facebook fa-lg"></i></a>&nbsp;
-                            <a href="https://twitter.com/y2_engineer"> <i class="fab fa-twitter fa-lg"></i></a>&nbsp;
-                            <a href="https://www.instagram.com/y2_world/"><i class="fab fa-instagram fa-lg"> </i></a>&nbsp;
-                            <a href="https://github.com/y2-world"> <i class="fab fa-github fa-lg"> </i></a>&nbsp;
-                            <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1"><i class="fab fa-apple fa-lg"></i></a>&nbsp;
-                            <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy"><i class="fab fa-spotify fa-lg"> </i></a>&nbsp;
-                            <a href="https://www.youtube.com/user/yuki92496"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="https://www.facebook.com/yuki92496?locale=ja_JP" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>&nbsp;
+                            <a href="https://twitter.com/y2_engineer" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>&nbsp;
+                            <a href="https://www.instagram.com/y2_world/" target="_blank"><i class="fab fa-instagram fa-lg"> </i></a>&nbsp;
+                            <a href="https://github.com/y2-world" target="_blank"> <i class="fab fa-github fa-lg"> </i></a>&nbsp;
+                            <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1" target="_blank"><i class="fab fa-apple fa-lg"></i></a>&nbsp;
+                            <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy" target="_blank"><i class="fab fa-spotify fa-lg"> </i></a>&nbsp;
+                            <a href="https://www.youtube.com/user/yuki92496" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
                             <br>
                             <div class="hour"> TOTAL INPUT TIME : 485 HOURS <div class="footer-input-date">(2021.05.06 UPDATED) </div></div>
                             <br>
