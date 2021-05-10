@@ -24,13 +24,15 @@
                                             </ul>
                                         </div>
                                         @endif
-                                        ラジオネーム
+                                        <div class="labels">ラジオネーム
                                     <input type="text" class="form-control" name="name">
                                     <br>
-                                    <input type="radio" value="【質問】" name="type">
-                                    <label for="質問">質問</label>
-                                    <input type="radio" value="【感想】" name="type">
-                                    <label for="感想">感想</label>
+                                    <div class="labels">
+                                        <input type="radio" value="【質問】" name="type">
+                                        <label for="質問">質問</label>
+                                        <input type="radio" value="【感想】" name="type">
+                                        <label for="感想">感想</label>
+                                    </div>
                                     <textarea class="form-control" rows="4" name="comment"></textarea>
                                 </div>  
                                 <br>

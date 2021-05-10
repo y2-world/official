@@ -201,10 +201,11 @@
                 .portfolio {
                     height: 750px;
                 }
-                footer, .release, .works, .music, .radio, .news-title, .profile, .single, .album {
+                footer, .release, .works, .music, .radio, .news-title, .profile, .single, .album, .form, .comments {
                     text-align: center;
                 }
-                
+                .labels {
+                    text-align: left;
                 }
             }
 
