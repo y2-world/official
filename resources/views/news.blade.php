@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h2>News</h2>
+            <h2 class="news-title">News</h2>
                 <div class="element js-fadein">
                     <hr>
                     <small class="date">2021.04.29</small>

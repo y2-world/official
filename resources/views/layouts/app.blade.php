@@ -201,8 +201,10 @@
                 .portfolio {
                     height: 750px;
                 }
-                footer {
+                footer, .release, .works, .music, .radio, .news-title, .profile, .single, .album {
                     text-align: center;
+                }
+                
                 }
             }
 
