@@ -182,7 +182,7 @@
             }
 
             .sns a {
-                padding-right: 10px;
+                padding-right: 5px;
             }
 
             @media screen and (max-width:480px) {
