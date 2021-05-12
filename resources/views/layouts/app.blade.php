@@ -207,6 +207,10 @@
                 .labels {
                     text-align: left;
                 }
+                .sns a {
+                padding-right: 10px;
+            }
+
             }
 
         }
