@@ -193,10 +193,6 @@
                 color: black;
             }
 
-            .navbar-nav li {
-                padding: 5px;
-            }
-
             .sns-nav a {
                 padding: 3px;
             }
@@ -233,7 +229,7 @@
                     text-align: left;
                 }
                 .sns a {
-                padding-right: 10px;
+                padding: 5px;
                 }
             }
         }
@@ -262,22 +258,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link" href="{{ url('/') }}">&emsp;Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/news') }}">News</a>
+                        <a class="nav-link" href="{{ url('/news') }}">&emsp;News</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/profile') }}">Profile</a>
+                        <a class="nav-link" href="{{ url('/profile') }}">&emsp;Profile</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/works') }}">Works</a>
+                        <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/works') }}">&emsp;Works</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/music') }}">Music</a>
+                        <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/radio') }}">Radio</a>
+                        <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/radio') }}">&emsp;Radio&emsp;</a>
                     </li>
                 </ul>
             </div>     
