@@ -185,6 +185,31 @@
                 padding-right: 5px;
             }
 
+            .sns-nav {
+                color: gray;
+            }
+
+            .sns-nav i:hover {
+                color: black;
+            }
+
+            .navbar-nav li {
+                padding: 5px;
+            }
+
+            .sns-nav a {
+                padding: 3px;
+            }
+
+            .navbar-brand {
+                padding-left: 15px;
+            }
+
+            @media screen and (max-width:1080px) {
+                .sns-nav {
+                    display: none;
+                }
+
             @media screen and (max-width:480px) {
                 .topics {
                     font-size: 15px;
@@ -209,44 +234,53 @@
                 }
                 .sns a {
                 padding-right: 10px;
+                }
             }
-
-            }
-
         }
 
-        
         </style>
     </head>
     <body>
     <div class="container">
         <div class="nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <a class="navbar-brand" href="{{ url('/') }}">&emsp;Yuki Official&nbsp;<span>Yuki Yoshida Official Website</span></a>
+                <a class="navbar-brand" href="{{ url('/') }}">Yuki Official
+                <span>Yuki Yoshida Official Website</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="navbar-toggler-icon"></div>
             </button>
+            <div class="sns-nav">
+                <a href="https://www.facebook.com/yuki92496?locale=ja_JP" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/y2_engineer" target="_blank"> <i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/y2_world/" target="_blank"><i class="fab fa-instagram"> </i></a>
+                <a href="https://github.com/y2-world" target="_blank"> <i class="fab fa-github"> </i></a>
+                <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1" target="_blank"><i class="fab fa-apple"></i></a>
+                <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy" target="_blank"><i class="fab fa-spotify"> </i></a>
+                <a href="https://www.youtube.com/user/yuki92496" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://podcasts.apple.com/us/podcast/y2-radio/id1555086566?uo=4" target="_blank"><i class="fas fa-podcast"></i></a>
+            </div>       
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-            <li class="nav-item active">
-            <a class="nav-link" href="{{ url('/') }}">&emsp;Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{ url('/news') }}">&emsp;News</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{ url('/profile') }}">&emsp;Profile</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{ url('/works') }}">&emsp;Works</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{ url('/music') }}">&emsp;Music</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{ url('/radio') }}">&emsp;Radio&emsp;</a>
-            </li>
-            </div>            
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/news') }}">News</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/profile') }}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/works') }}">Works</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/music') }}">Music</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/radio') }}">Radio</a>
+                    </li>
+                </ul>
+            </div>     
             </nav>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -258,22 +292,23 @@
         <br>
         <footer id='footer'>
             <footer class="text-left bg-dark text-white">
-                    <div class="footer-main">
-                        <div class="container">
-                            <br>
-                            <div class="sns">
-                                <a href="https://www.facebook.com/yuki92496?locale=ja_JP" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
-                                <a href="https://twitter.com/y2_engineer" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>
-                                <a href="https://www.instagram.com/y2_world/" target="_blank"><i class="fab fa-instagram fa-lg"> </i></a>
-                                <a href="https://github.com/y2-world" target="_blank"> <i class="fab fa-github fa-lg"> </i></a>
-                                <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1" target="_blank"><i class="fab fa-apple fa-lg"></i></a>
-                                <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy" target="_blank"><i class="fab fa-spotify fa-lg"> </i></a>
-                                <a href="https://www.youtube.com/user/yuki92496" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
-                            </div>
-                            <div class="hour"> TOTAL INPUT TIME : 495 HOURS <div class="footer-input-date">(2021.05.10 UPDATED) </div></div>
-                            <br>
-                        </div> 
-                    </div>
+                <div class="footer-main">
+                    <div class="container">
+                        <br>
+                        <div class="sns">
+                            <a href="https://www.facebook.com/yuki92496?locale=ja_JP" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/y2_engineer" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>
+                            <a href="https://www.instagram.com/y2_world/" target="_blank"><i class="fab fa-instagram fa-lg"> </i></a>
+                            <a href="https://github.com/y2-world" target="_blank"> <i class="fab fa-github fa-lg"> </i></a>
+                            <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1" target="_blank"><i class="fab fa-apple fa-lg"></i></a>
+                            <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy" target="_blank"><i class="fab fa-spotify fa-lg"> </i></a>
+                            <a href="https://www.youtube.com/user/yuki92496" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="https://podcasts.apple.com/us/podcast/y2-radio/id1555086566?uo=4" target="_blank"><i class="fas fa-podcast fa-lg"></i></a>
+                        </div>
+                        <div class="hour"> TOTAL INPUT TIME : 495 HOURS <div class="footer-input-date">(2021.05.10 UPDATED) </div></div>
+                        <br>
+                    </div> 
+                </div>
             </footer>  
         </footer>
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
