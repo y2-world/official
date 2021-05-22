@@ -10,9 +10,20 @@
                 <div class="element js-fadein">
                     @foreach ($comments as $comment)
                     <li class="list-group-item">
-                        {{$comment->created_at}}<br>
-                        ラジオネーム : {{ $comment->name }}<br>
-                        {{ $comment->type }}{{ $comment->comment }}
+                        <div class="row">
+                            <div class="col-md-10">
+                            {{$comment->created_at}}<br>
+                            ラジオネーム : {{ $comment->name }}<br>
+                            {{ $comment->type }}{{ $comment->comment }}
+                            </div>
+                            <div class="col-md-2 my-auto">
+                                <form action="{{ route('comments.destroy', $comment->id) }}" method="post">
+                                    {{ csrf_field() }}
+                                    {{ method_field('DELETE') }}
+                                    <input type='submit' value='削除' class="btn btn-outline-danger btn-sm" onclick='return confirm("削除しますか？");'>
+                                </form>
+                            </div>
+                        </div>
                     </li>
                     @endforeach
                     <br>
