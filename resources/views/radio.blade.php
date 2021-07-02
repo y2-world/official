@@ -18,7 +18,7 @@
                         <hr>
                         <small class="date">最新話</small><br>
                         #016 (2021.07.01 更新)
-                        <h5>近況報告 〜今年が半分終わっちゃいましたね〜</h5>
+                        <h5>近況報告 <br>〜今年が半分終わっちゃいましたね〜</h5>
                         <hr>
                         他のプラットフォームからはコチラ<br>
                         <small class="news_link"><a href="https://anchor.fm/13190" target="_blank">https://anchor.fm/13190</a></small>
