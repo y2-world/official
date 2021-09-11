@@ -19,37 +19,48 @@
 
         <style>
             .topics {
-                height: 400px;
                 background-color: white;
                 display:flex;
                 align-items:center;
                 justify-content:center;
-                font-size:18px;
+                font-size:14px;
+                padding: 50px;
             }
 
             .release {
-                height: 700px;
                 background-color: #efffef;
                 display:flex;
                 align-items:center;
                 justify-content:center;
                 color: black;
+                padding: 50px;
             }
 
             .portfolio {
-                height: 1400px;
                 background-color: white;
                 display:flex;
                 align-items:center;
                 justify-content:center;
+                padding: 50px;
+            }
+
+            .topic-list {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-left: 50px;
             }
 
             .more {
-                text-align: center;
+                padding: 20px 0px;
             }
 
             .header_space {
                 height: 55px;
+            }
+
+            .top-header {
+                padding-bottom: 10px;
             }
 
             body {
@@ -99,6 +110,7 @@
             .date {
                 color:gray;
                 font-size:15px;
+                padding: 0px 100px;
             }
 
             .hour  {
@@ -205,6 +217,20 @@
                 .sns-nav {
                     display: none;
                 }
+                .top-header {
+                    text-align: center;
+                }
+                .topic-list {
+                    flex-direction: column;
+                    align-items: center;
+                    padding-left: 0px;
+                }
+                .more {
+                    text-align: center;
+                }
+                .topic {
+                    text-align: center;
+                }
 
             @media screen and (max-width:480px) {
                 .topics {
@@ -215,12 +241,6 @@
                 }
                 .mobile_img {
                     width:100%;
-                }
-                .release {
-                    height: 550px;
-                }
-                .portfolio {
-                    height: 750px;
                 }
                 footer, .release, .works, .music, .radio, .news-title, .profile, .single, .album, .form, .comments {
                     text-align: center;
@@ -343,15 +363,5 @@
         showElementAnimation();
         window.addEventListener('scroll', showElementAnimation);
     </script>
-
-    <noscript>
-    <style>
-        .js-fadein {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0px);
-        }
-    </style>
-    </noscript>  
     </body>
 </html>
