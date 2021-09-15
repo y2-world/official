@@ -248,6 +248,11 @@
                 height: 200px;
             }
 
+            .album-image {
+                width: 300px;
+                height: 300px;
+            }
+
             .single img {
                 margin-bottom: 20px;
                 transition: box-shadow .5s;
@@ -319,7 +324,7 @@
                 padding-right: 0px;
                 }
 
-                .single-image {
+                .single-image, .album-image {
                 width: 165px;
                 height: 165px;
                 }

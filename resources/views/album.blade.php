@@ -18,25 +18,25 @@
         <h3 class="single-header">Album</h3>
         <div class="single-wrapper">
             <div class="single">
-                <img src={{ asset('images/album_image4.jpg') }} class="single-image">
+                <img src={{ asset('images/album_image4.jpg') }} class="album-image">
                 <div class="topic">BIRTH</div>
                 <p class="text">4th Album<br>2019.09.24</p>
             </div>
             
             <div class="single">
-                <img src={{ asset('images/album_image3.jpg') }} class="single-image">
+                <img src={{ asset('images/album_image3.jpg') }} class="album-image">
                 <div class="topic">My World</div>
                 <p class="text">3rd Album<br>2018.08.01</p>
             </div>
             
             <div class="single">
-                <img src={{ asset('images/album_image2.jpg') }} class="single-image">
+                <img src={{ asset('images/album_image2.jpg') }} class="album-image">
                 <div class="topic">Second Life</div>
                 <p class="text">2nd Album<br>2018.03.19</p>
             </div>
 
             <div class="single">
-                <img src={{ asset('images/album_image1.jpg') }} class="single-image">
+                <img src={{ asset('images/album_image1.jpg') }} class="album-image">
                 <div class="topic">First Records</div>
                 <p class="text">1st Album<br>2018.02.26</p>
             </div>
