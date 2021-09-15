@@ -57,6 +57,10 @@
                 text-align: center;
             }
 
+            .works {
+                padding-top: 10px;
+            }
+
             .header_space {
                 height: 55px;
             }
@@ -139,9 +143,14 @@
 
             span {
             display: inline-block;
-            font-size: 8px;
-            color:gray;
             }
+
+            .logo {
+                font-size: 8px;
+                color:gray;
+            }
+
+            nav 
 
             html, body {
             height: 100%;
@@ -225,6 +234,10 @@
                 width: 100%;
             }
 
+            img {
+                box-shadow: 0 12px 12px gray;
+            }
+
             @media screen and (max-width:1080px) {
                 .sns-nav {
                     display: none;
@@ -287,7 +300,7 @@
         <div class="nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <a class="navbar-brand" href="{{ url('/') }}">Yuki Official
-                <span>Yuki Yoshida Official Website</span></a>
+                <span class="logo">Yuki Yoshida Official Website</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="navbar-toggler-icon"></div>
             </button>
