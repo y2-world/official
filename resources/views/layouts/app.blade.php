@@ -316,8 +316,8 @@
                 }
 
                 .single-image {
-                width: 150px;
-                height: 150px;
+                width: 165px;
+                height: 165px;
                 }
 
                 .single .topic {
