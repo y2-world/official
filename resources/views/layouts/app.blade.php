@@ -240,7 +240,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-around;
-                padding-top: 30px;
+                padding-top: 10px;
             }
 
             .single-image {
@@ -259,6 +259,10 @@
 
             .single .text, .single .topic{
                 text-align: center;
+            }
+
+            .single-header {
+                padding-top: 10px;
             }
 
             @media screen and (max-width:1080px) {
@@ -326,6 +330,10 @@
                 .single .text {
                     padding-top: 5px;
                     font-size: 7px;
+                }
+
+                .single-header {
+                    text-align: center;
                 }
             }
             }

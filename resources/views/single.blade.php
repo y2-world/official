@@ -15,6 +15,7 @@
 </div>
 <div class="element js-fadein">
     <div class="container">
+        <h3 class="single-header">Single</h3>
         <div class="single-wrapper">
             <div class="single">
                 <img src={{ asset('images/single_image13.jpg') }} class="single-image">
