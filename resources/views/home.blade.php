@@ -41,7 +41,7 @@
                 <div class="col-md-9">
                     <h3 class="top-header">NEW RELEASE</h3>
                     <div class="topic-list">
-                        <div class="date">2021.11.27</div>
+                        <div class="date">2020.11.27</div>
                         <div class="topic">
                             13th Single「Daydream」
                             <p class="text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、<br>エモーショナルなミディアムロックチューン。</p>

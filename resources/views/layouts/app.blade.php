@@ -253,7 +253,7 @@
                     font-size: 14px;
                 }
                 .topic {
-                    font-size: 12px;
+                    font-size: 13px;
                 }
                 .text {
                     padding-top: 10px;
