@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/e47a10189c.js" crossorigin="anonymous"></script>
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -48,11 +49,12 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                padding-left: 50px;
+                padding-left: 100px;
             }
 
             .more {
-                padding: 20px 0px;
+                padding-top: 20px;
+                text-align: center;
             }
 
             .header_space {
@@ -111,6 +113,12 @@
                 color:gray;
                 font-size:15px;
                 padding: 0px 100px;
+            }
+
+            .news .date {
+                color:gray;
+                font-size:15px;
+                padding-left: 0px;
             }
 
             .hour  {
@@ -213,6 +221,10 @@
                 padding-left: 15px;
             }
 
+            .portofolio-image, .release-image {
+                width: 100%;
+            }
+
             @media screen and (max-width:1080px) {
                 .sns-nav {
                     display: none;
@@ -233,8 +245,19 @@
                 }
 
             @media screen and (max-width:480px) {
-                .topics {
-                    font-size: 15px;
+                .topics, .release, .portofilio {
+                padding-left: 0px;
+                padding-right: 0px;
+                }
+                .release .topic {
+                    font-size: 14px;
+                }
+                .topic {
+                    font-size: 12px;
+                }
+                .text {
+                    padding-top: 10px;
+                    font-size: 10px;
                 }
                 .date {
                     font-size:11px;
@@ -251,6 +274,10 @@
                 .sns a {
                 padding: 5px;
                 }
+                .portfolio {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
             }
         }
         </style>

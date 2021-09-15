@@ -26,6 +26,9 @@
                         <div class="date">2021.02.18</div>
                         <div class="topic">Yuki Yoshida Official Qiita 開設！</div>
                     </div>
+                    <div class="more">
+                        <a href="{{ url('/news') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,11 +45,11 @@
                         <div class="topic">
                             13th Single「Daydream」
                             <p class="text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、<br>エモーショナルなミディアムロックチューン。</p>
-                            <img src={{ asset('images/single_image13.jpg') }} class="image" width="50%">
-                            <div class="more">
-                                <a href="{{ url('/music') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
-                            </div>
+                            <img src={{ asset('images/single_image13.jpg') }} class="release-image">
                         </div>
+                    </div>
+                    <div class="more">
+                        <a href="{{ url('/music') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -65,12 +68,12 @@
                             </div>
                                 <h5 class="text-center">TRAVEL×YOU</h4>
                                 <div class="text-center">
-                                    <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.png') }} class="image" width="100%"></a>
-                                </div>
-                                <div class="more">
-                                    <a href="{{ url('/works') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
+                                    <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.png') }} class="portofolio-image"></a>
                                 </div>
                             </div>
+                        </div>
+                        <div class="more">
+                            <a href="{{ url('/works') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
                         </div>
                     </div>
                 </div>
