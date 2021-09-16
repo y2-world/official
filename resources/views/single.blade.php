@@ -97,8 +97,8 @@
 
             <div class="single">
                 <img src={{ asset('images/single_image_special1.jpg') }} class="single-image">
-                <div class="topic2">Gastronomeのテーマ</div>
-                <p class="text">Speci al Single<br>2018.01.23</p>
+                <div class="topic">Gastronomeのテーマ</div>
+                <p class="text">Special Single<br>2018.01.23</p>
             </div>
 
             <div class="single">
