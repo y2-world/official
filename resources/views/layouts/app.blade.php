@@ -49,7 +49,27 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                padding-left: 100px;
+            }
+
+            .cover p {
+                font-family: 'Nanum Myeongjo', serif;
+                position: absolute;
+                font-size: 25px;
+                top: 15%;
+                left: 50%;
+                -ms-transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                margin:0;
+                padding:0;
+            }
+
+            .cover {
+                position: relative;
+            }
+
+            .cover img {
+                width: 100%;
             }
 
             .more {
@@ -288,6 +308,11 @@
                 .topic {
                     text-align: center;
                 }
+                .cover p {
+                    font-size: 20px;
+                }
+            }
+
 
             @media screen and (max-width:480px) {
                 .topics, .release, .portofilio {
@@ -340,7 +365,10 @@
                 .single-header {
                     text-align: center;
                 }
-            }
+
+                .cover p {
+                    font-size: 14px;
+                }
             }
         }
         </style>

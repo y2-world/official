@@ -1,14 +1,16 @@
 @extends('layouts.app')
 @section('content')
-<div class="element js-fadein">
-    <img src={{ asset('images/mobile_image.jpg') }} width="100%">
+<div class="cover">
+    <div class="element js-fadein">
+    <img src={{ asset('images/top_image.jpg') }}>
+    <p>Yuki Yoshida Official Website</p>
+    </div>
 </div>
-
 <div class="element js-fadein">
     <div class="topics">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-9">
+                <div class="col-md-7">
                     <h3 class="top-header">TOPICS</h3>
                     <div class="topic-list">
                         <div class="date">2021.04.29</div>
@@ -38,7 +40,7 @@
     <div class="release">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-9">
+                <div class="col-md-7">
                     <h3 class="top-header">NEW RELEASE</h3>
                     <div class="topic-list">
                         <div class="date">2020.11.27</div>
@@ -61,7 +63,7 @@
     <div class="portfolio">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-9">
+                <div class="col-md-7">
                         <div class="row">
                             <div>
                                 <h3 class="top-header">PORTFOLIO</div>
