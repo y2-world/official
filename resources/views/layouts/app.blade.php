@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">    
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/e47a10189c.js" crossorigin="anonymous"></script>
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
@@ -268,9 +269,86 @@
                 height: 200px;
             }
 
+            .album-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding-top: 10px;
+            }
+
+            .disco-wrapper {
+                position: relative;
+            }
+
+            #album {
+                position: absolute;
+                background-color: white;
+                box-shadow: 0 5px 5px gray;
+                max-width: 800px;
+                border-radius: 5px;
+                top: 0%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                opacity: 1;
+                transition-duration: 0.6s;
+            }
+
+            #album p {
+                font-size: 11px;
+                padding: 10px;
+                padding-left: 30px;
+            }
+
+            #close {
+                margin-top: 15px;
+                margin-right: 15px;
+                cursor: pointer;
+            }
+
+            #close :hover {
+                opacity: 0.5;
+            }
+
+            #mask {
+                background: rgba(0, 0, 0, 0.4);
+                position: fixed;
+                width: 100%; 
+                height: 100%; 
+                top: 0; 
+                left: 0;
+            }
+
+            .album-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+
+            .album-title {
+                padding-left: 30px;
+                font-size: 20px;
+            }
+
+            .album-index {
+                padding-top: 10px;
+                padding-left: 30px;
+                font-size: 10px;
+            }
+
+            .album-date {
+                padding-left: 30px;
+                font-size: 10px;
+            }
+
+            .modal-img {
+                padding: 10px 30px 30px 30px;
+            }
+
             .album-image {
                 width: 300px;
                 height: 300px;
+                cursor: pointer;
             }
 
             .single img {
@@ -288,6 +366,52 @@
 
             .single-header {
                 padding-top: 10px;
+            }
+
+            #mask.hidden {
+                display: none;
+            }
+
+            #album.hidden {
+                opacity: 0;
+                pointer-events: none;
+            }
+
+            @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+            src: local('Material Icons'),
+                local('MaterialIcons-Regular'),
+                url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+                url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+                url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+            }
+
+            .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Support for IE. */
+            font-feature-settings: 'liga';
             }
 
             @media screen and (max-width:1080px) {
@@ -311,7 +435,17 @@
                 .cover p {
                     font-size: 20px;
                 }
+                #album {
+                    width: 700px;
+                }
             }
+
+            @media screen and (max-width:768px) {
+                #album {
+                    width: 400px;
+                }
+            }
+
 
 
             @media screen and (max-width:480px) {
@@ -368,6 +502,10 @@
 
                 .cover p {
                     font-size: 14px;
+                }
+
+                #album {
+                    width: 300px;
                 }
             }
         }
@@ -458,6 +596,8 @@
 
     </script>   
     <script>
+    'use strict';
+    {
     function showElementAnimation() {
                         
         var element = document.getElementsByClassName('js-fadein');
@@ -480,6 +620,24 @@
         }
         showElementAnimation();
         window.addEventListener('scroll', showElementAnimation);
+    }
+    </script>
+    <script>
+    {
+        $('#album4').click(() => {
+            $('#album')
+                .removeClass('hidden')
+            $('#mask')
+                .removeClass('hidden');
+        });
+
+        $('#close').click(() => {
+            $('#album')
+                .addClass('hidden')
+            $('#mask')
+                .addClass('hidden');
+        });
+    }
     </script>
     </body>
 </html>
