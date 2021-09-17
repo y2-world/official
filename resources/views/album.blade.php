@@ -14,7 +14,7 @@
         </div><!-- /.btn-group -->
 </div>
 <div class="disco-wrapper">
-    <div id="mask" class="hidden"></div>
+    <div id="mask" class="hide"></div>
     <div class="element js-fadein">
         <div class="container">
             <h3 class="single-header">Album</h3>
@@ -24,7 +24,7 @@
                     <div class="topic">BIRTH</div>
                     <p class="text">4th Album<br>2019.09.24</p>
                 </div>
-                <div id="album" class="hidden">
+                <div id="album" class="hide">
                     <div class="album-row">
                         <div class="album-index">4th Album</div>
                         <div id ="close">
