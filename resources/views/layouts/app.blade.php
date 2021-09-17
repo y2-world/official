@@ -280,7 +280,7 @@
                 position: relative;
             }
 
-            #album {
+            #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                 position: absolute;
                 background-color: white;
                 max-width: 800px;
@@ -293,13 +293,14 @@
                 transition: 0.6s;
             }
 
-            #album p {
+            .track-list {
                 font-size: 11px;
                 padding: 10px;
                 padding-left: 30px;
+                padding-bottom: 30px;
             }
 
-            #close {
+            #close4, #close3, #close2, #close1 {
                 margin-top: 15px;
                 margin-right: 15px;
                 cursor: pointer;
@@ -371,7 +372,7 @@
                 opacity: 0;
             }
 
-            #album.hide {
+            #album-modal4.hide, #album-modal3.hide, #album-modal2.hide, #album-modal1.hide {
                 opacity: 0;
                 pointer-events: none;
             }
@@ -434,18 +435,16 @@
                 .cover p {
                     font-size: 20px;
                 }
-                #album {
+                #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                     width: 700px;
                 }
             }
 
             @media screen and (max-width:768px) {
-                #album {
+                #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                     width: 400px;
                 }
             }
-
-
 
             @media screen and (max-width:480px) {
                 .topics, .release, .portofilio {
@@ -503,7 +502,7 @@
                     font-size: 14px;
                 }
 
-                #album {
+                #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                     width: 350px;
                     top: -15%
                 }
@@ -625,14 +624,56 @@
     <script>
     {
         $('#album4').click(() => {
-            $('#album')
+            $('#album-modal4')
                 .removeClass('hide')
             $('#mask')
                 .removeClass('hide');
         });
 
-        $('#close').click(() => {
-            $('#album')
+        $('#album3').click(() => {
+            $('#album-modal3')
+                .removeClass('hide')
+            $('#mask')
+                .removeClass('hide');
+        });
+
+        $('#album2').click(() => {
+            $('#album-modal2')
+                .removeClass('hide')
+            $('#mask')
+                .removeClass('hide');
+        });
+
+        $('#album1').click(() => {
+            $('#album-modal1')
+                .removeClass('hide')
+            $('#mask')
+                .removeClass('hide');
+        });
+
+        $('#close4').click(() => {
+            $('#album-modal4')
+                .addClass('hide')
+            $('#mask')
+                .addClass('hide');
+        });
+
+        $('#close3').click(() => {
+            $('#album-modal3')
+                .addClass('hide')
+            $('#mask')
+                .addClass('hide');
+        });
+
+        $('#close2').click(() => {
+            $('#album-modal2')
+                .addClass('hide')
+            $('#mask')
+                .addClass('hide');
+        });
+
+        $('#close1').click(() => {
+            $('#album-modal1')
                 .addClass('hide')
             $('#mask')
                 .addClass('hide');
