@@ -11,54 +11,70 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <h3 class="top-header">TOPICS</h3>
-                    <div class="topic-list">
-                        <div class="date">2021.04.29</div>
-                        <div class="topic">y2_radio 質問・感想フォーム開設！</div>
-                    </div>
-                    <div class="topic-list">
-                        <div class="date">2021.04.21</div>
-                        <div class="topic">Radioページ開設！</div>
-                    </div>
-                    <div class="topic-list">
-                        <div class="date">2021.02.25</div>
-                        <div class="topic">Yuki Yoshida Official Podcast "y2_radio" 開設！</div>
-                    </div>
-                    <div class="topic-list">
-                        <div class="date">2021.02.18</div>
-                        <div class="topic">Yuki Yoshida Official Qiita 開設！</div>
-                    </div>
-                    <div class="more">
-                        <a href="{{ url('/news') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
+                    <ul class="topic-menu">
+                        <li><a href="#" class="active" data-id="menu-topics">TOPICS</a></li>
+                        <li><a href="#" data-id="menu-release">NEW RELEASE</a></li>
+                        <li><a href="#" data-id="menu-radio">RADIO</a></li>
+                    </ul>
+                    <div class="topic-container">
+                        <section class="content active" id="menu-topics">
+                            <div class="topic-list">
+                                <div class="date">2021.04.29</div>
+                                <div class="topic">y2_radio 質問・感想フォーム開設！</div>
+                            </div>
+                            <div class="topic-list">
+                                <div class="date">2021.04.21</div>
+                                <div class="topic">Radioページ開設！</div>
+                            </div>
+                            <div class="topic-list">
+                                <div class="date">2021.02.25</div>
+                                <div class="topic">Yuki Yoshida Official Podcast "y2_radio" 開設！</div>
+                            </div>
+                            <div class="topic-list">
+                                <div class="date">2021.02.18</div>
+                                <div class="topic">Yuki Yoshida Official Qiita 開設！</div>
+                            </div>
+                            <div class="topic-more">
+                                <a href="{{ url('/news') }}">MORE</a>
+                            </div>
+                        </section>
+                        <section class="content" id="menu-release">
+                            <div class="topic-list">
+                                <div class="date">2020.11.27</div>
+                                <div class="topic">13th Single "Daydream"<span class="topic-text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、
+                                    エモーショナルなミディアムロックチューン。</div>
+                            </div>
+                            <div class="topic-more">
+                                <a href="{{ url('/music') }}">MORE</a>
+                            </div>
+                        </section>
+                        <section class="content" id="menu-radio">
+                            <div class="topic-list">
+                                <div class="date">2021.07.15</div>
+                                <div class="topic">#018 (ヒゲダン、ライブ、フェスについて)</div>
+                            </div>
+                            <div class="topic-list">
+                                <div class="date">2021.07.08</div>
+                                <div class="topic">#017 (Official髭男dismについて)</div>
+                            </div>
+                            <div class="topic-list">
+                                <div class="date">2021.07.01</div>
+                                <div class="topic">#016 (近況報告 〜今年が半分終わっちゃいましたね〜)</div>
+                            </div>
+                            <div class="topic-list">
+                                <div class="date">2021.06.15</div>
+                                <div class="topic">#015 (質問コーナー#2、近況報告、iMacについて)</div>
+                            </div>
+                            <div class="topic-more">
+                                <a href="{{ url('/radio') }}">MORE</a>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="element js-fadein">
-    <div class="release">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7">
-                    <h3 class="top-header">NEW RELEASE</h3>
-                    <div class="topic-list">
-                        <div class="date">2020.11.27</div>
-                        <div class="topic">
-                            13th Single「Daydream」
-                            <p class="text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、<br>エモーショナルなミディアムロックチューン。</p>
-                            <img src={{ asset('images/single_image13.jpg') }} class="release-image">
-                        </div>
-                    </div>
-                    <div class="more">
-                        <a href="{{ url('/music') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="element js-fadein">
     <div class="portfolio">
         <div class="container">

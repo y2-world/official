@@ -29,17 +29,8 @@
                 padding: 50px;
             }
 
-            .release {
-                background-color: #efffef;
-                display:flex;
-                align-items:center;
-                justify-content:center;
-                color: black;
-                padding: 50px;
-            }
-
             .portfolio {
-                background-color: white;
+                background-color: #efffef;
                 display:flex;
                 align-items:center;
                 justify-content:center;
@@ -49,7 +40,6 @@
             .topic-list {
                 display: flex;
                 flex-direction: row;
-                align-items: center;
             }
 
             .cover p {
@@ -127,7 +117,8 @@
             }
 
             .topic {
-                font-size: 18px;
+                font-size: 14px;
+                color: black;
             }
 
             a:hover {
@@ -136,8 +127,8 @@
 
             .date {
                 color:gray;
-                font-size:15px;
-                padding: 0px 100px;
+                font-size:14px;
+                padding: 0px 50px;
             }
 
             .news .date {
@@ -379,8 +370,52 @@
                 padding-right: 30px;
             }
 
-            .active{
+            li .active{
                 color: gray;
+            }
+
+            .topic-menu {
+                display: flex;
+                justify-content: flex-start;
+                list-style: none;
+            }
+
+            .topic-menu a {
+                font-size: 16px;
+                padding-right: 30px;
+            }
+
+            .topic-menu li a:active {
+                color: gray;
+            }
+
+            .topic-container {
+                max-width: 700px;
+            }
+
+            .topic-more {
+                color: gray;
+                font-size: 14px;
+                text-align: right;
+                padding-top: 10px;
+                padding-right: 50px;
+            }
+
+            .topic-more a:hover {
+                color: black;
+            }
+
+            .content {
+                display: none;
+            }
+
+            .content.active {
+                display: block;
+            }
+
+            .topic-text {
+                font-size: 9px;
+                color: black;
             }
 
             @font-face {
@@ -428,14 +463,11 @@
                     text-align: center;
                 }
                 .topic-list {
-                    flex-direction: column;
-                    align-items: center;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
                     padding-left: 0px;
                 }
                 .more {
-                    text-align: center;
-                }
-                .topic {
                     text-align: center;
                 }
                 .cover p {
@@ -443,6 +475,9 @@
                 }
                 #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                     width: 700px;
+                }
+                .date {
+                    padding: 0px 10px;
                 }
             }
 
@@ -519,6 +554,20 @@
 
                 .music-header {
                     text-align: center;
+                }
+                .date {
+                    font-size: 10px;
+                    padding: 0px 25px;
+                }
+                .topic {
+                    font-size: 11px;
+                }
+                
+                .topic-more {
+                    font-size: 11px;
+                }
+                .topic-menu {
+                    justify-content: center;
                 }
             }
         }
@@ -692,6 +741,26 @@
             $('#mask')
                 .addClass('hide');
         });
+    }
+    {
+        const menuItems = document.querySelectorAll('.topic-menu li a');
+        const contents = document.querySelectorAll('.content');
+
+        menuItems.forEach(clickedItem => {
+            clickedItem.addEventListener('click', e => {
+                e.preventDefault();
+
+                menuItems.forEach(item => {
+                    item.classList.remove('active');
+                });
+                clickedItem.classList.add('active');
+
+                contents.forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(clickedItem.dataset.id).classList.add('active');
+            })
+        })
     }
     </script>
     </body>
