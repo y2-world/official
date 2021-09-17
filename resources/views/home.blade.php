@@ -3,7 +3,7 @@
 <div class="cover">
     <div class="element js-fadein">
     <img src={{ asset('images/top_image.jpg') }}>
-    <p>Yuki Yoshida Official Website</p>
+    <p><span>Yuki Yoshida</span> <span>Official Website</span></p>
     </div>
 </div>
 <div class="element js-fadein">

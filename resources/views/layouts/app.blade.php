@@ -257,23 +257,22 @@
                 box-shadow: 0 5px 5px gray;
             }
 
-            .single-wrapper {
+            .single-wrapper, .album-wrapper {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 padding-top: 10px;
             }
 
             .single-image {
                 width: 200px;
                 height: 200px;
+                cursor: pointer;
             }
 
-            .album-wrapper {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                padding-top: 10px;
+            .album-image {
+                width: 300px;
+                height: 300px;
             }
 
             .disco-wrapper {
@@ -283,7 +282,7 @@
             #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                 position: absolute;
                 background-color: white;
-                max-width: 800px;
+                max-width: 700px;
                 border-radius: 5px;
                 top: 0%;
                 left: 0;
@@ -345,12 +344,6 @@
                 padding: 10px 30px 30px 30px;
             }
 
-            .album-image {
-                width: 300px;
-                height: 300px;
-                cursor: pointer;
-            }
-
             .single img {
                 margin-bottom: 20px;
                 transition: box-shadow .5s;
@@ -369,12 +362,25 @@
             }
 
             #mask.hide {
-                opacity: 0;
+                display: none;
             }
 
             #album-modal4.hide, #album-modal3.hide, #album-modal2.hide, #album-modal1.hide {
                 opacity: 0;
                 pointer-events: none;
+            }
+
+            .music-menu {
+                display: flex;
+                list-style: none;
+            }
+
+            .music-menu a {
+                padding-right: 30px;
+            }
+
+            .active{
+                color: gray;
             }
 
             @font-face {
@@ -474,16 +480,16 @@
                     text-align: left;
                 }
                 .sns a {
-                padding: 5px;
+                    padding: 5px;
                 }
                 .portfolio {
-                padding-left: 0px;
-                padding-right: 0px;
+                    padding-left: 0px;
+                    padding-right: 0px;
                 }
 
                 .single-image, .album-image {
-                width: 165px;
-                height: 165px;
+                width: 160px;
+                height: 160px;
                 }
 
                 .single .topic {
@@ -506,6 +512,14 @@
                     width: 350px;
                     top: 0%
                 }
+
+                .music-menu {
+                    justify-content: center;
+                }
+
+                .music-header {
+                    text-align: center;
+                }
             }
         }
         </style>
@@ -515,7 +529,7 @@
         <div class="nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <a class="navbar-brand" href="{{ url('/') }}">Yuki Official
-                <span class="logo">Yuki Yoshida Official Website</span></a>
+                <span class="logo">Yuki Yoshida Official Website</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="navbar-toggler-icon"></div>
             </button>
