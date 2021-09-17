@@ -634,7 +634,7 @@
                             <a href="https://www.youtube.com/user/yuki92496" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
                             <a href="https://podcasts.apple.com/us/podcast/y2-radio/id1555086566?uo=4" target="_blank"><i class="fas fa-podcast fa-lg"></i></a>
                         </div>
-                        <div class="hour"> TOTAL INPUT TIME : 495 HOURS <div class="footer-input-date">(2021.05.10 UPDATED) </div></div>
+                        <div class="hour"> TOTAL INPUT TIME : 619 HOURS <div class="footer-input-date">(2021.09.18 UPDATED) </div></div>
                         <br>
                     </div> 
                 </div>

@@ -76,33 +76,6 @@
         </div>
     </div>
 </div>
-<div class="element js-fadein">
-    <div class="portfolio">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7">
-                        <div class="row">
-                            <div>
-                                <h3 class="top-header">PORTFOLIO</div>
-                            </div>
-                                <h5 class="text-center">TRAVEL×YOU</h4>
-                                <div class="text-center">
-                                    <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.png') }} class="portofolio-image"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="more">
-                            <a href="{{ url('/works') }}"><button type="button" class="btn btn-outline-dark">MORE</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
 @endsection
    
 
