@@ -23,7 +23,7 @@
                             <span>さぁ、一緒に旅に出かけましょう！</span>
                         <br>
                         <br>
-                        使用言語 : PHP / Laravel / Java Script<br>
+                        使用言語 : PHP (Laravel) / JavaScript<br>
                         データベース : MySQL<br>
                         サーバー : AWS
                         </p>
