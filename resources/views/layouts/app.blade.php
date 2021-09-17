@@ -504,7 +504,7 @@
 
                 #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
                     width: 350px;
-                    top: -15%
+                    top: 0%
                 }
             }
         }
