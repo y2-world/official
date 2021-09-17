@@ -26,15 +26,8 @@
                 align-items:center;
                 justify-content:center;
                 font-size:14px;
-                padding: 50px;
-            }
-
-            .portfolio {
-                background-color: #efffef;
-                display:flex;
-                align-items:center;
-                justify-content:center;
-                padding: 50px;
+                padding-top: 50px;
+                padding-bottom: 30px;
             }
 
             .topic-list {
