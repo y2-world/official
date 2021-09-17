@@ -505,7 +505,7 @@
                 }
 
                 #album {
-                    width: 300px;
+                    width: 350px;
                 }
             }
         }
