@@ -506,6 +506,7 @@
 
                 #album {
                     width: 350px;
+                    top: -15%
                 }
             }
         }
