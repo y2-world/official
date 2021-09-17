@@ -371,7 +371,7 @@
             }
 
             li .active{
-                color: gray;
+                opacity: 0.4;
             }
 
             .topic-menu {
@@ -383,10 +383,6 @@
             .topic-menu a {
                 font-size: 16px;
                 padding-right: 30px;
-            }
-
-            .topic-menu li a:active {
-                color: gray;
             }
 
             .topic-container {

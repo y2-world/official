@@ -16,6 +16,7 @@
                         <li><a href="#" data-id="menu-release">NEW RELEASE</a></li>
                         <li><a href="#" data-id="menu-radio">RADIO</a></li>
                     </ul>
+                    <hr>
                     <div class="topic-container">
                         <section class="content active" id="menu-topics">
                             <div class="topic-list">
