@@ -125,7 +125,7 @@ a:hover {
 }
 
 span {
-display: inline-block;
+    display: inline-block;
 }
 
 .logo {
@@ -134,13 +134,13 @@ display: inline-block;
 }
 
 html, body {
-height: 100%;
-margin: 0;
+    height: 100%;
+    margin: 0;
 }
 
 .wrapper {
-min-height: 100%;
-margin-bottom: -50px;
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 footer {
@@ -209,10 +209,6 @@ i:hover {
 
 .navbar-brand {
     padding-left: 15px;
-}
-
-.portofolio-image, .release-image {
-    width: 100%;
 }
 
 img {
@@ -387,63 +383,69 @@ li .active{
 }
 
 @font-face {
-font-family: 'Material Icons';
-font-style: normal;
-font-weight: 400;
-src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {
-font-family: 'Material Icons';
-font-weight: normal;
-font-style: normal;
-font-size: 24px;  /* Preferred icon size */
-display: inline-block;
-line-height: 1;
-text-transform: none;
-letter-spacing: normal;
-word-wrap: normal;
-white-space: nowrap;
-direction: ltr;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 
-/* Support for all WebKit browsers. */
--webkit-font-smoothing: antialiased;
-/* Support for Safari and Chrome. */
-text-rendering: optimizeLegibility;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
 
-/* Support for Firefox. */
--moz-osx-font-smoothing: grayscale;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
 
-/* Support for IE. */
-font-feature-settings: 'liga';
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
 @media screen and (max-width:1080px) {
     .sns-nav {
         display: none;
     }
+
     .top-header {
         text-align: center;
     }
+
     .topic-list {
         flex-direction: row;
         flex-wrap: nowrap;
         padding-left: 0px;
     }
+
     .more {
         text-align: center;
     }
+
     .cover p {
         font-size: 20px;
     }
+
     #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
         width: 700px;
     }
+
     .date {
         padding: 0px 10px;
     }
@@ -456,48 +458,33 @@ font-feature-settings: 'liga';
 }
 
 @media screen and (max-width:480px) {
-    .topics, .release, .portofilio {
-    padding-left: 0px;
-    padding-right: 0px;
-    }
-    .release .topic {
-        font-size: 14px;
-    }
-    .topic {
-        font-size: 13px;
-    }
-    .text {
-        padding-top: 10px;
-        font-size: 10px;
-    }
-    .date {
-        font-size:11px;
-    }
-    .mobile_img {
-        width:100%;
-    }
-    footer, .release, .works, .music, .radio, .news-title, .profile, .single, .album, .form, .comments {
-        text-align: center;
-    }
-    .labels {
-        text-align: left;
-    }
-    .sns a {
-        padding: 5px;
-    }
-    .portfolio {
+    .topics {
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .single-image, .album-image {
-    width: 160px;
-    height: 160px;
+    .text {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    footer, .release, .works, .music, .radio, .news-title, .profile, .single, .album, .form, .comments {
+        text-align: center;
     }
 
-    .single .topic {
-        font-size: 14px;
+    .labels {
+        text-align: left;
     }
+
+    .sns a {
+        padding: 5px;
+    }
+
+    .single-image, .album-image {
+        width: 160px;
+        height: 160px;
+    }
+
     .single .text {
         padding-top: 5px;
         font-size: 7px;
@@ -523,10 +510,12 @@ font-feature-settings: 'liga';
     .music-header {
         text-align: center;
     }
+
     .date {
         font-size: 10px;
         padding: 0px 25px;
     }
+
     .topic {
         font-size: 11px;
     }
@@ -534,6 +523,7 @@ font-feature-settings: 'liga';
     .topic-more {
         font-size: 11px;
     }
+
     .topic-menu {
         justify-content: center;
     }
