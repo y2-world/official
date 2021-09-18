@@ -131,7 +131,7 @@
             }
 
             .hour  {
-                font-size: 14px;
+                font-size: 12px;
             }
 
             .prof_img {
@@ -380,6 +380,7 @@
 
             .topic-container {
                 max-width: 700px;
+                height: 100px;
             }
 
             .topic-more {
