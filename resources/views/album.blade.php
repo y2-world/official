@@ -46,7 +46,7 @@
                                                     05.ストローク<br>
                                                     06.Graduation<br>
                                                     07.風が運んだ手紙<br>
-                                                    08.Waitin'for you<br>
+                                                    08.Waitin' for you<br>
                                                     09.Turquoise<br>
                                                     10.陽炎<br>
                                                     11.Next to you<br>
