@@ -20,20 +20,20 @@
                     <div class="topic-container">
                         <section class="content active" id="menu-topics">
                             <div class="topic-list">
+                                <div class="date">2021.09.21</div>
+                                <div class="topic"><a href="{{ url('/news') }}">Yuki Offcial リニューアル！</a></div>
+                            </div>
+                            <div class="topic-list">
                                 <div class="date">2021.04.29</div>
-                                <div class="topic">y2_radio 質問・感想フォーム開設！</div>
+                                <div class="topic"><a href="{{ url('/news') }}">y2_radio 質問・感想フォーム開設！</a></div>
                             </div>
                             <div class="topic-list">
                                 <div class="date">2021.04.21</div>
-                                <div class="topic">Radioページ開設！</div>
+                                <div class="topic"><a href="{{ url('/news') }}">Radioページ開設！</a></div>
                             </div>
                             <div class="topic-list">
                                 <div class="date">2021.02.25</div>
-                                <div class="topic">Yuki Yoshida Official Podcast "y2_radio" 開設！</div>
-                            </div>
-                            <div class="topic-list">
-                                <div class="date">2021.02.18</div>
-                                <div class="topic">Yuki Yoshida Official Qiita 開設！</div>
+                                <div class="topic"><a href="{{ url('/news') }}">Yuki Yoshida Official Podcast "y2_radio" 開設！</a></div>
                             </div>
                             <div class="topic-more">
                                 <a href="{{ url('/news') }}">MORE</a>

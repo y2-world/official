@@ -8,6 +8,10 @@
                 <h2 class="news-title">News</h2>
                     <div class="element js-fadein">
                         <hr>
+                        <small class="date">2021.09.21</small>
+                        <div class="link">Yuki Official リニューアル！</div>
+                        <p class="text">Yuki Officialがリニューアルしました！これからもYukiの情報を発信していきます！<br></p>
+                        <hr>
                         <small class="date">2021.04.29</small>
                         <div class="link">y2_radio 質問・感想フォーム開設！</div>
                         <p class="text">質問・感想フォームが完成しました！ぜひメッセージをお願いします！<br></p>
