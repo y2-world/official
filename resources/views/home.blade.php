@@ -42,7 +42,7 @@
                         <section class="content" id="menu-release">
                             <div class="topic-list">
                                 <div class="date">2020.11.27</div>
-                                <div class="topic">13th Single "Daydream"<span class="topic-text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、
+                                <div class="topic"><a href="{{ url('/music/single') }}">13th Single "Daydream"</a><span class="topic-text">夢や人生観を描いたまさにコロナ禍の"今"に響くような歌詞、
                                     エモーショナルなミディアムロックチューン。</div>
                             </div>
                             <div class="topic-more">
