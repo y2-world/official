@@ -16,7 +16,7 @@
                         <h5>Listen on</h5>
                         <a href="https://music.apple.com/jp/artist/yuki-yoshida/1448865361?itsct=music_box_badge&itscg=30200&ct=artists_yuki_yoshida&app=music&ls=1"><i class="fab fa-apple fa-3x"></i></a>
                         Apple Music&emsp;
-                        <a href="https://open.spotify.com/user/21oiucbvpex7hvueehkm4bkpy"><i class="fab fa-spotify fa-3x"></i></a>
+                        <a href="https://open.spotify.com/artist/5x6TjqB9xXXjY4Xn5y2oJm"><i class="fab fa-spotify fa-3x"></i></a>
                         Spotify
                         <hr>
                         <h5>Watch on</h5>
