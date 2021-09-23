@@ -2,7 +2,7 @@
 @section('content')
 <div class="mt-4"></div>
 <div class="music">
-    {{-- <div class="container"> --}}
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <h2>Music</h2>
@@ -29,6 +29,6 @@
                 </div>
             </div>
         </div>
-    {{-- </div> --}}
+    </div>
 </div>
 @endsection
