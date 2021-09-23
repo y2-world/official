@@ -453,6 +453,10 @@ li .active{
     .date {
         padding: 0px 10px;
     }
+
+    .music-menu {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -505,10 +509,6 @@ li .active{
     #album-modal4, #album-modal3, #album-modal2, #album-modal1 {
         width: 350px;
         top: 0%
-    }
-
-    .music-menu {
-        justify-content: center;
     }
 
     .music-header {
