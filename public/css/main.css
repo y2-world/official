@@ -331,6 +331,7 @@ img {
 .music-menu {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 .music-menu a {
@@ -452,10 +453,6 @@ li .active{
 
     .date {
         padding: 0px 10px;
-    }
-
-    .music-menu {
-        justify-content: center;
     }
 }
 
