@@ -10,7 +10,6 @@
                     <div class="works">
                         <a href="http://18.179.42.2/" target="_blank"> <img src={{ asset('images/works_image2.png') }} class="image" width="100%"></a>
                         <br>
-                        <br>
                         <a class="link" href="http://18.179.42.2/" target="_blank"><h5>TRAVEL×YOU</h5></a>
                         <hr>
                         <h6 class>旅とあなたをつなぐプラットフォーム</h6>
