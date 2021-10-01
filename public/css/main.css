@@ -387,6 +387,10 @@ li .active{
     padding-top: 40px;
 }
 
+.prof-image {
+    margin-bottom: 40px;
+}
+
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
@@ -425,7 +429,7 @@ li .active{
 }
 
 @media screen and (max-width:1080px) {
-    h2 {
+    h2, .prof-birth {
         text-align: center;
     }
 
