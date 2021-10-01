@@ -391,6 +391,15 @@ li .active{
     margin-bottom: 40px;
 }
 
+.radio-form {
+    padding-bottom: 20px;
+}
+
+.radio-episode {
+    color: gray;
+    font-size: 14px;
+}
+
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
